@@ -39,6 +39,14 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
+        android:key="top_level_rebellion_settings"
+        android:title="@string/rebellion_settings_title"
+        android:summary="@string/rebellion_dashboard_summary"
+        android:icon="@drawable/ic_homepage_rebellionsettings"
+        android:order="-105"
+        android:fragment="com.rebellion.settings.RebellionSettings"/>
+
+    <Preference
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
@@ -47,21 +55,12 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
-        android:key="top_level_extensions"
-        android:title="@string/extensions_title"
-        android:summary="@string/build_tweaks_summary_title"
-        android:icon="@drawable/ic_homepage_extensions"
-        android:order="-100"
-        android:fragment="org.aospextended.extensions.Extensions"
-        settings:controller="org.aospextended.extensions.TopLevelExtensionsEntryPreferenceController" />
-
-    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_battery"
         android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
-        android:order="-90"
+        android:order="-100"
         settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
     <Preference
@@ -69,7 +68,7 @@
         android:title="@string/display_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_display"
-        android:order="-80"
+        android:order="-90"
         android:fragment="com.android.settings.DisplaySettings"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
@@ -78,7 +77,7 @@
         android:title="@string/sound_settings"
         android:summary="@string/sound_dashboard_summary"
         android:icon="@drawable/ic_homepage_sound"
-        android:order="-70"
+        android:order="-80"
         android:fragment="com.android.settings.notification.SoundSettings"/>
 
     <Preference
@@ -86,7 +85,7 @@
         android:title="@string/storage_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_storage"
-        android:order="-60"
+        android:order="-70"
         android:fragment="com.android.settings.deviceinfo.StorageSettings"
         settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
 

@@ -177,8 +177,8 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
-
-    // AospExtended Additions.
-    public static class ExtensionsSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    // RebellionOS Additions.
+    public static class RebellionSettingsActivity extends SettingsActivity {}
 }
