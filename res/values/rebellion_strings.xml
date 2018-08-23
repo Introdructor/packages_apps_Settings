@@ -353,5 +353,10 @@
     <string name="ultra_power_save_title">Ultra Power Saving</string>
     <string name="ultra_power_save_summary">When screen goes off device will switch to ultra power mode</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light pulse duration</string>
+    <string name="custom_light_off_time_title">Light pulse interval</string>
+
 </resources>
 
