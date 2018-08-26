@@ -354,5 +354,9 @@
     <string name="custom_light_on_time_title">Light pulse duration</string>
     <string name="custom_light_off_time_title">Light pulse interval</string>
 
+    <!-- Rebellion version preference -->
+    <string name="rebellion_version">Rebellion OS version</string>
+    <string name="build_date">Rebellion Build date</string>
+
 </resources>
 
