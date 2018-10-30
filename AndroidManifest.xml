@@ -3368,6 +3368,12 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.rebellion.settings.fragments.GamingMode" />
         </activity>
+
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.rebellion.settings.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.rebellion.settings.gestureanywhere.GestureAnywhereCreateGestureActivity" /> 
+
+        <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
 
