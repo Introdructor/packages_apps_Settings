@@ -363,5 +363,11 @@
     <string name="custom_light_on_time_title">Light pulse duration</string>
     <string name="custom_light_off_time_title">Light pulse interval</string>
 
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch appearance</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oneplus">OnePlus</string>
+
 </resources>
 
