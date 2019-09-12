@@ -42,6 +42,8 @@ public class RebellionVersionDetailPreferenceController extends BasePreferenceCo
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_REBELLION_VERSION_PROP = "ro.rebellion.fanbase_version";
+    private static final String KEY_REBELLION_BUILDTYPE_PROP = "ro.rebellion.build_type";
+    private static final String KEY_REBELLION_FANBASE_PROP = "ro.rebellion.fanbase_type";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -63,8 +65,10 @@ public class RebellionVersionDetailPreferenceController extends BasePreferenceCo
     @Override
     public CharSequence getSummary() {
 	String[] rebellionVer = SystemProperties.get(KEY_REBELLION_VERSION_PROP).split("v");
-	if (!rebellionVer[1].isEmpty())
-	    return rebellionVer[1];
+        String rebellionBuildtype = SystemProperties.get(KEY_REBELLION_BUILDTYPE_PROP);
+        String rebellionFanbasetype  = SystemProperties.get(KEY_REBELLION_FANBASE_PROP);
+	if (!rebellionVer[1].isEmpty() && !rebellionFanbasetype.isEmpty() && !rebellionBuildtype.isEmpty())
+	    return rebellionVer[1] + " | " + rebellionFanbasetype+ " | " + rebellionBuildtype;
 	else
             return mContext.getString(R.string.unknown);
     }
