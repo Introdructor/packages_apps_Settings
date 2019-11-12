@@ -366,5 +366,10 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Privacy chip view -->
+    <string name="privacy_chip_visibility">Hide privacy icons on statusbar and qs</string>
+    <string name="privacy_chip_visibility_summary">Hide icons indicating that location/camera/microphone are beign used</string>
+
 </resources>
 
