@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Rebellion logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="rebellion_logo"
+        android:layout="@layout/rebellion_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
