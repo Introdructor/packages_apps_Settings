@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (C) 2016 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.rebellion.settings.RebellionSettings;
+import com.rebellion.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -288,7 +289,8 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             RunningServices.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-            RebellionSettings.class.getName()
+            RebellionSettings.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -328,6 +330,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.RebellionSettingsActivity.class.getName()
+            Settings.RebellionSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }

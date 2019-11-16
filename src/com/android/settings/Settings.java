@@ -181,4 +181,7 @@ public class Settings extends SettingsActivity {
 
     // RebellionOS Additions.
     public static class RebellionSettingsActivity extends SettingsActivity {}
+
+    // Gaming Mode
+    public static class GamingModeActivity extends SettingsActivity {}
 }
