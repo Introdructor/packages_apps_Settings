@@ -356,7 +356,8 @@
 
     <!-- Rebellion version preference -->
     <string name="rebellion_version">Rebellion OS version</string>
-    <string name="build_date">Rebellion Build date</string>
+    <string name="build_date">Rebellion Build Date</string>
+    <string name="about_device_name">Rebellion Device</string>
 
 </resources>
 
