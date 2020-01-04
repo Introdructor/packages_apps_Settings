@@ -338,4 +338,9 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touch_gestures_title_in">Screen-Off Gestures</string>
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+
 </resources>
