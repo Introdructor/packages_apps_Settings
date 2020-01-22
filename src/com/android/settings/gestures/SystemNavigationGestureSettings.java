@@ -220,7 +220,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
                         .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                        getBackHeight(getContext())));
+                        getBackHeight(getContext()), getBackBlockIme(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -326,6 +326,16 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
     static int getBackHeight(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.BACK_GESTURE_HEIGHT, 0);
+    }
+
+    static void setBackBlockIme(Context context, boolean blockIme) {
+        Settings.System.putInt(context.getContentResolver(),
+                Settings.System.BACK_GESTURE_BLOCK_IME, blockIme ? 1 : 0);
+    }
+
+    static boolean getBackBlockIme(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.BACK_GESTURE_BLOCK_IME, 1) == 1;
     }
 
     static int getPillToggleState(Context context) {
@@ -444,3 +454,4 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         return true;
     }
 }
+
