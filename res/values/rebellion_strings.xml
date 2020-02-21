@@ -371,5 +371,8 @@
     <string name="privacy_chip_visibility">Hide privacy icons on statusbar and qs</string>
     <string name="privacy_chip_visibility_summary">Hide icons indicating that location/camera/microphone are beign used</string>
 
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
+
 </resources>
 

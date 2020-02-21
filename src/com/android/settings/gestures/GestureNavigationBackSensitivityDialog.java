@@ -36,6 +36,7 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
  */
 public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFragment {
 
+    private boolean mHapticSwitchChecked;
     private boolean mArrowSwitchChecked;
 
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
@@ -75,6 +76,16 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final Switch blockImeSwitch = view.findViewById(R.id.back_block_ime);
         blockImeSwitch.setChecked(getArguments().getBoolean(KEY_BACK_BLOCK_IME));
+        final Switch hapticSwitch = view.findViewById(R.id.back_gesture_haptic);
+        mHapticSwitchChecked = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.BACK_GESTURE_HAPTIC, 1) == 1;
+        hapticSwitch.setChecked(mHapticSwitchChecked);
+        hapticSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mHapticSwitchChecked = hapticSwitch.isChecked() ? true : false;
+            }
+        });
         final Switch arrowSwitch = view.findViewById(R.id.back_arrow_gesture_switch);
         mArrowSwitchChecked = Settings.Secure.getInt(getActivity().getContentResolver(),
                 Settings.Secure.SHOW_BACK_ARROW_GESTURE, 1) == 1;
@@ -100,6 +111,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     SystemNavigationGestureSettings.setBackBlockIme(getActivity(), blockIme);
+                    Settings.System.putInt(getContext().getContentResolver(),
+                            Settings.System.BACK_GESTURE_HAPTIC, mHapticSwitchChecked ? 1 : 0);
                     Settings.Secure.putInt(getActivity().getContentResolver(),
                             Settings.Secure.SHOW_BACK_ARROW_GESTURE, mArrowSwitchChecked ? 1 : 0);
                 })
