@@ -118,6 +118,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         mVideoPreference.setHeight( /* Illustration height in dp */
                 getResources().getDimension(R.dimen.system_navigation_illustration_height)
                         / getResources().getDisplayMetrics().density);
+
     }
 
     @Override
@@ -144,6 +145,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             bindPreferenceExtra(pref, info.getKey(), info, defaultKey, systemDefaultKey);
             screen.addPreference(pref);
         }
+
         mayCheckOnlyRadioButton();
     }
 

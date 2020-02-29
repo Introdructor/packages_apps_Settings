@@ -87,4 +87,16 @@
         android:summary="@string/three_finger_gesture_summary"
         android:defaultValue="false" />
 
+
+  <PreferenceCategory
+      android:title="@string/swipe_gestures_nav">
+
+        <Preference
+           android:key="navbar_gestures"
+           android:title="@string/navbar_gesture_tweaks_pref_title"
+           android:summary="@string/navbar_gesture_tweaks_pref_summary"
+           android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
+
+  </PreferenceCategory>
+
 </PreferenceScreen>
