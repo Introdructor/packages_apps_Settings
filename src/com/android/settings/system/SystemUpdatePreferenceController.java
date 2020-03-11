@@ -34,9 +34,9 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
-    private static final String OTA_BUILD_TYPE_PROP = "ro.extended.releasetype";
-    private static final String DEVICE_NAME = "ro.aex.device";
-    private static final String OTA_APP_PACKAGE = "com.aospextended.ota";
+    private static final String OTA_BUILD_TYPE_PROP = "ro.rebellion.build_type";
+    private static final String DEVICE_NAME = "ro.rebellion.device";
+    private static final String OTA_APP_PACKAGE = "com.rebellion.ota";
 
     private final UserManager mUm;
 
@@ -47,9 +47,9 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"unofficial");
+        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"unrebelized");
         String deviceName = SystemProperties.get(DEVICE_NAME,"");
-        if (deviceName.startsWith("phhgsi_") || !mUm.isAdminUser() || !buildtype.equalsIgnoreCase("official")){
+        if (deviceName.startsWith("phhgsi_") || !mUm.isAdminUser() || !buildtype.equalsIgnoreCase("rebelized")){
             return UNSUPPORTED_ON_DEVICE;
         }
         try {
@@ -78,7 +78,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.aex_ota_summary);
+        CharSequence summary = mContext.getString(R.string.rebellion_ota_summary);
         return summary;
     }
 

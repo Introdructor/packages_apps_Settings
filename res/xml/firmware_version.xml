@@ -22,10 +22,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-<PreferenceScreen
-    android:layout="@layout/aex_logo"
-    android:key="aex_logo" />
-
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -34,14 +30,21 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Extended version -->
-    <Preference
-         android:key="extended_version"
-         android:title="@string/extended_version"
-         android:summary="@string/summary_placeholder"
-         settings:enableCopying="true"
-         settings:controller="com.android.settings.deviceinfo.firmwareversion.ExtendedVersionPreferenceController"/>
+    <!-- Device name -->
+    <Preference          
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
+    <!-- ROM version -->
+    <Preference
+        android:key="os_rom_version"
+        android:title="@string/rom_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomVersionDetailPreferenceController" />
 
     <!-- Security patch -->
     <Preference
@@ -52,7 +55,7 @@
 
     <!-- Mainline module version -->
     <Preference
-        android:key="module_version"
+       android:key="module_version"
         android:title="@string/module_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
@@ -67,12 +70,12 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Build date -->
-    <Preference 
-        android:key="build_date"
+    <Preference
+        android:key="os_build_date"
         android:title="@string/build_date"
-        android:summary="@string/build_date_default"
+        android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
 
     <!-- Kernel -->
     <Preference
@@ -89,5 +92,13 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+
+    <!-- SELinux -->
+    <Preference
+        android:key="selinux_status"
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
 
 </PreferenceScreen>

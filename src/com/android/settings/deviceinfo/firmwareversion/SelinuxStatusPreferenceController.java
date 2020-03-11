@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The AospExtended Project
+ * Copyright (C) 2017 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,32 +17,32 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.os.SystemProperties;
-import android.text.TextUtils;
-
-import androidx.annotation.VisibleForTesting;
+import android.os.SELinux;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 
-public class ExtendedVersionPreferenceController extends BasePreferenceController {
+public class SelinuxStatusPreferenceController extends BasePreferenceController {
 
-    @VisibleForTesting
-    static final String EXTENDED_VERSION_PROPERTY = "ro.extended.display.version";
+    private static final String TAG = "SelinuxStatusCtrl";
 
-    public ExtendedVersionPreferenceController(Context context, String preferenceKey) {
-        super(context, preferenceKey);
+    public SelinuxStatusPreferenceController(Context context, String key) {
+        super(context, key);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(SystemProperties.get(EXTENDED_VERSION_PROPERTY)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(EXTENDED_VERSION_PROPERTY,
-                mContext.getString(R.string.device_info_default));
+        if (!SELinux.isSELinuxEnabled()) {
+            return (CharSequence) mContext.getString(R.string.selinux_status_disabled);
+        } else if (!SELinux.isSELinuxEnforced()) {
+            return (CharSequence) mContext.getString(R.string.selinux_status_permissive);
+        } else {
+            return (CharSequence) mContext.getString(R.string.selinux_status_enforcing);
+        }
     }
 }
