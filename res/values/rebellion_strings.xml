@@ -364,5 +364,7 @@
     <string name="about_device_name">Rebellion Device</string>
     <string name="the_rebeller">The Rebeller</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
 
