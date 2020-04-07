@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"لطفاً ابتدا گزینه‌های تولیدکننده را فعال کنید."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"بی‌سیم و شبکه‌ها"</string>
     <string name="header_category_system" msgid="1665516346845259058">"سیستم"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"فعال کردن اتصال داده"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"غیرفعال کردن اتصال داده"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"‏مشروط به VoLTE"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"مجوز تماس تصویری داده شد"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"‏مجوز تماس با Wifi داده شد"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"‏EAB/حضور مشروط است"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"‏داده‌های Cbrs"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"‏فعال کردن DSDS"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"دستگاه بازراه‌اندازی شود؟"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"برای تغییر این تنظیم، باید دستگاه را بازراه‌اندازی کنید"</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"بازراه‌اندازی"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"لغو"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"توان رادیوی همراه"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"مشاهده دفترچه نشانی سیم‌کارت"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"مشاهده شماره‌های شماره‌گیری ثابت"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"مشاهده شماره‌های شماره گیری سرویس"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"‏وضعیت سرویس IMS"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"‏وضعیت IMS"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"ثبت‌شده"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"ثبت‌نشده"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"در دسترس"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"در دسترس نیست"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"‏ثبت IMS:‏ <xliff:g id="STATUS">%1$s</xliff:g>\nصدا ازطریق LTE‏: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nصدا ازطریق WiFi‏: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\n‏تماس ویدیویی: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nواسط UT: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"سرویس دارد"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"خارج از سرویس"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"فقط تماس‌های اضطراری"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"رادیو خاموش"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"فراگردی"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"بدون فراگردی"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"بلااستفاده"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"زنگ زدن"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"تماس در حال انجام"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"اتصال قطع شد"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"درحال اتصال"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"متصل"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"معلق"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"نامشخص"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"pkts"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"بایت"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"‏قطع اتصال حافظهٔ USB"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"‏جدا کردن کارت SD"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"‏پاک کردن حافظهٔ USB"</string>
@@ -87,7 +55,7 @@
     <string name="font_size_preview_text_headline" msgid="1173103737980511652">"نوشتار نمونه"</string>
     <string name="font_size_preview_text_title" msgid="6363561029914452382">"جادوگر شهر اوز"</string>
     <string name="font_size_preview_text_subtitle" msgid="5806349524325544614">"فصل ۱۱: شهر زمردی شگفت‌انگیز اوز"</string>
-    <string name="font_size_preview_text_body" msgid="3323732544011097199">"با وجودی که دورتی و دوستانش عینک‌هایی سبز به چشم داشتند چشمانشان در اولین نگاه از درخشندگی این شهر فوق‌العاده خیره شد. خیابان‌ها با ردیف خانه‌هایی که همه از مرمر سبز ساخته شده بودند و در همه جای آن با زمردهای درخشنده تزئین شده بود می‌درخشید. آنها در پیاده‌رویی از همان مرمر سبز راه می‌رفتند و سنگفرش‌های پیاده‌رو با ردیف‌های زمردی که نزدیک به هم قرار گرفته بودند و در نور خورشید می‌درخشیدند به هم پیوسته بود. قاب‌های پنجره‌ها از شیشه سبز بود؛ حتی آسمان بالای شهر رنگ‌مایه سبز داشت و اشعه خورشید سبزرنگ بود. \n\nمردم زیادی از مرد و زن و بچه در اطراف راه می‌رفتند که همه لباس‌های سبزی پوشیده بودند و پوست بدنشان ته رنگ سبزی داشت. آنها به دوروتی و دوستان عجیبش با تعجب نگاه می‌کردند. بچه‌ها به‌محض دیدن شیر همه فرار کردند و پشت سر مادرانشان پنهان شدند؛ اما هیچ‌کس با آنها صحبت نکرد. تعداد زیادی مغازه در خیابان بود و دوروتی متوجه شد که همه‌چیز در این مغازه‌ها به رنگ سبز است. آبنبات سبز و پف فیل سبز برای فروش گذاشته شده بود، همین‌طور همه مدل کفش، کلاه و لباس که همه به رنگ سبز بودند. در جایی مردی لیموناد سبز می‌فروخت و وقتی بچه‌ها از او خرید می‌کردند دوروتی دید که پول آن را با سکه‌هایی سبزرنگ پرداختند. \n\nبه‌نظر می‌رسید که اسب یا حیوان دیگری در آنجا نیست؛ مردها چیزها را با گاری‌های کوچک سبزی به این طرف و آن طرف حمل می‌کردند و گاری را در جلوشان هل می‌دادند. به‌نظر می‌رسید همه شاد و راضی و مرفه بودند."</string>
+    <string name="font_size_preview_text_body" msgid="3323732544011097199">"با وجودی که دورتی و دوستانش عینک‌هایی سبز به چشم داشتند چشمانشان در اولین نگاه از درخشندگی این شهر فوق‌العاده خیره شد. خیابان‌ها با ردیف خانه‌هایی که همه از مرمر سبز ساخته شده بودند و در همه جای آن با زمردهای درخشنده تزئین شده بود می‌درخشید. آن‌ها در پیاده‌رویی از همان مرمر سبز راه می‌رفتند و سنگفرش‌های پیاده‌رو با ردیف‌های زمردی که نزدیک به هم قرار گرفته بودند و در نور خورشید می‌درخشیدند به هم پیوسته بود. قاب‌های پنجره‌ها از شیشه سبز بود؛ حتی آسمان بالای شهر رنگ‌مایه سبز داشت و اشعه خورشید سبزرنگ بود. \n\nمردم زیادی از مرد و زن و بچه در اطراف راه می‌رفتند که همه لباس‌های سبزی پوشیده بودند و پوست بدنشان ته رنگ سبزی داشت. آن‌ها به دوروتی و دوستان عجیبش با تعجب نگاه می‌کردند. بچه‌ها به‌محض دیدن شیر همه فرار کردند و پشت سر مادرانشان پنهان شدند؛ اما هیچ‌کس با آن‌ها صحبت نکرد. تعداد زیادی مغازه در خیابان بود و دوروتی متوجه شد که همه‌چیز در این مغازه‌ها به رنگ سبز است. آبنبات سبز و پف فیل سبز برای فروش گذاشته شده بود، همین‌طور همه مدل کفش، کلاه و لباس که همه به رنگ سبز بودند. در جایی مردی لیموناد سبز می‌فروخت و وقتی بچه‌ها از او خرید می‌کردند دوروتی دید که پول آن را با سکه‌هایی سبزرنگ پرداختند. \n\nبه‌نظر می‌رسید که اسب یا حیوان دیگری در آنجا نیست؛ مردها چیزها را با گاری‌های کوچک سبزی به این طرف و آن طرف حمل می‌کردند و گاری را در جلوشان هل می‌دادند. به‌نظر می‌رسید همه شاد و راضی و مرفه بودند."</string>
     <string name="font_size_save" msgid="206892409190870726">"تأیید"</string>
     <string name="sdcard_setting" product="nosdcard" msgid="6071836464978826249">"‏حافظهٔ USB"</string>
     <string name="sdcard_setting" product="default" msgid="3713462184783824923">"‏کارت SD"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"درگاهی که وارد کردید معتبر نیست."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"‏این مرورگر از پروکسی HTTP استفاده می‌کند اما ممکن است برنامه‌های دیگر از آن استفاده نکنند."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"‏نشانی وب PAC: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"‏subId کنونی:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"‏SubId مربوط به سیم‌کارت داده پیش‌فرض:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"‏پهنای باند DL (کیلوبیت بر ثانیه):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"‏پهنای باند UL (کیلوبیت بر ثانیه):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"اطلاعات مکان شبکه همراه (منسوخ شده):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"‏پیکربندی کانال فیزیکی LTE:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"نرخ بازخوانی اطلاعات شبکه همراه:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"همه اطلاعات اندازه‌گیری شبکه همراه:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"سرویس داده:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"فراگردی:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"هدایت تماس:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"‏تعداد بازنشانی PPP از زمان راه‌اندازی:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"شبکه کنونی:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"داده دریافت شده:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"سرویس صوتی:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"قدرت سیگنال:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"وضعیت تماس صوتی:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"داده ارسال شده:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"پیام در انتظار:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"شماره تلفن:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"انتخاب باند رادیو"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"نوع شبکه صوتی:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"نوع شبکه داده:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"انتخاب نمایه تلفن"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"تنظیم نوع شبکه برگزیده:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"‏پینگ کردن نام میزبان (www.google.com)‏ IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"‏پینگ کردن نام میزبان (www.google.com)‏ IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"‏آزمایش کارخواه HTTP:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"اجرای آزمایش پینگ"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"به‌روزرسانی"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"بازخوانی"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"‏تغییر وضعیت علامت DNS"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"‏تنظیمات/اطلاعات خاص OEM"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"تنظیم حالت باند رادیو"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"در حال بار کردن فهرست باند…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"تنظیم"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"ناموفق"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"موفقت آمیز"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"‏تغییرات با اتصال مجدد کابل USB اعمال می‌شوند."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"‏فعال کردن ذخیره‌سازی انبوه USB"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"مجموع بایت‌ها:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"انتخاب فعالیت"</string>
     <string name="device_info_label" msgid="2935198177248803716">"اطلاعات دستگاه"</string>
     <string name="display_label" msgid="3056320781191343221">"صفحه‌نمایش"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"اطلاعات رایانهٔ لوحی"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"اطلاعات تلفن"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"‏حافظهٔ USB"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"‏کارت SD"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"تنظیمات پروکسی"</string>
@@ -534,8 +464,8 @@
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"رمزگذاری رایانهٔ لوحی"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"رمزگذاری تلفن"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"رمز گذاری شده"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"می‌توانید حساب‌ها، تنظیمات، برنامه‌های بارگیری شده به‌علاوه داده‌های آنها، رسانه‌ها و سایر فایل‌هایتان را رمزگذاری کنید. بعد از رمزگذاری رایانه لوحی‌تان، با فرض اینکه یک قفل صفحه تنظیم کرده‌اید (که می‌تواند یک الگو، پین عددی یا گذرواژه باشد)، باید هر بار که رایانه لوحی را روشن می‌کنید، قفل صفحه را برای رمزگشایی از رایانه لوحی باز کنید. تنها راه دیگر برای رمزگشایی، بازنشانی داده‌های کارخانه و پاک کردن همه داده‌هایتان می‌باشد.\n\nرمزگذاری یک ساعت یا بیشتر طول می‌کشد. باید این کار را زمانی آغاز کنید که باتری شارژ کامل باشد و در طول این مدت رایانه لوحی‌تان همچنان به برق وصل باشد. اگر وقفه‌ای در فرآیند به وجود آید، بعضی از داده‌هایتان یا همه آنها را از دست خواهید داد."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"می‌توانید حساب‌ها، تنظیمات، برنامه‌های بارگیری شده به‌علاوه داده‌های آنها، رسانه‌ها و سایر فایل‌هایتان را رمزگذاری کنید. بعد از رمزگذاری تلفنتان، با فرض اینکه یک قفل صفحه تنظیم کرده‌اید (که می‌تواند یک الگو، پین عددی یا گذرواژه باشد)، باید هر بار که تلفن را روشن می‌کنید، قفل صفحه را برای رمزگشایی از تلفن باز کنید. تنها راه دیگر برای رمزگشایی بازنشانی داده‌های کارخانه و پاک کردن همه داده‌هایتان می‌باشد.\n\nرمزگذاری یک ساعت یا بیشتر طول می‌کشد. باید این کار را زمانی آغاز کنید که باتری شارژ کامل باشد و در طول این مدت تلفنتان همچنان به برق وصل باشد. اگر وقفه‌ای در فرآیند به وجود آید، بعضی از داده‌هایتان یا همه آنها را از دست خواهید داد."</string>
+    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"می‌توانید حساب‌ها، تنظیمات، برنامه‌های بارگیری شده به‌علاوه داده‌های آن‌ها، رسانه‌ها و سایر فایل‌هایتان را رمزگذاری کنید. بعد از رمزگذاری رایانه لوحی‌تان، با فرض اینکه یک قفل صفحه تنظیم کرده‌اید (که می‌تواند یک الگو، پین عددی یا گذرواژه باشد)، باید هر بار که رایانه لوحی را روشن می‌کنید، قفل صفحه را برای رمزگشایی از رایانه لوحی باز کنید. تنها راه دیگر برای رمزگشایی، بازنشانی داده‌های کارخانه و پاک کردن همه داده‌هایتان می‌باشد.\n\nرمزگذاری یک ساعت یا بیشتر طول می‌کشد. باید این کار را زمانی آغاز کنید که باتری شارژ کامل باشد و در طول این مدت رایانه لوحی‌تان همچنان به برق وصل باشد. اگر وقفه‌ای در فرآیند به وجود آید، بعضی از داده‌هایتان یا همه آن‌ها را از دست خواهید داد."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"می‌توانید حساب‌ها، تنظیمات، برنامه‌های بارگیری شده به‌علاوه داده‌های آن‌ها، رسانه‌ها و سایر فایل‌هایتان را رمزگذاری کنید. بعد از رمزگذاری تلفنتان، با فرض اینکه یک قفل صفحه تنظیم کرده‌اید (که می‌تواند یک الگو، پین عددی یا گذرواژه باشد)، باید هر بار که تلفن را روشن می‌کنید، قفل صفحه را برای رمزگشایی از تلفن باز کنید. تنها راه دیگر برای رمزگشایی بازنشانی داده‌های کارخانه و پاک کردن همه داده‌هایتان می‌باشد.\n\nرمزگذاری یک ساعت یا بیشتر طول می‌کشد. باید این کار را زمانی آغاز کنید که باتری شارژ کامل باشد و در طول این مدت تلفنتان همچنان به برق وصل باشد. اگر وقفه‌ای در فرآیند به وجود آید، بعضی از داده‌هایتان یا همه آن‌ها را از دست خواهید داد."</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"رمزگذاری رایانهٔ لوحی شخصی"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"رمزگذاری تلفن"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"باتری خود را شارژ کرده و دوباره امتحان کنید."</string>
@@ -1121,11 +1051,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"تنظیم برگزیده فراگردی"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
     <item msgid="8622872038388687383">"داده شبکه تلفن همراه"</item>
     <item msgid="3027927219952052398">"‏فقط Wi-Fi"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"Wi-Fi"</item>
     <item msgid="7566603075659706590">"داده شبکه تلفن همراه"</item>
@@ -1138,6 +1073,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"نشانی اضطراری"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"‏وقتی ازطریق Wi-Fi تماس اضطراری برقرار می‌کنید به‌عنوان مکان شما استفاده می‌شود"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"‏درباره قابلیت‌های DNS خصوصی "<annotation id="url">"بیشتر بدانید"</annotation></string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"روشن"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"تنظیم تحت مدیریت شرکت مخابراتی"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"‏فعال کردن تماس ازطریق Wi-Fi"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"‏روشن کردن تماس ازطریق Wi-Fi"</string>
@@ -1491,7 +1427,7 @@
     <string name="storage_dialog_unmounted" msgid="1187960789775910051">"این <xliff:g id="NAME_0">^1</xliff:g> به‌صورت ایمن بیرون رانده شد، اما هنوز موجود است. \n\nبرای استفاده از این <xliff:g id="NAME_1">^1</xliff:g>، باید ابتدا آن را بنشانید."</string>
     <string name="storage_dialog_unmountable" msgid="1761107904296941687">"این <xliff:g id="NAME_0">^1</xliff:g> خراب شده است. \n\nبرای استفاده از این <xliff:g id="NAME_1">^1</xliff:g>، باید ابتدا آن را راه‌اندازی کنید."</string>
     <string name="storage_dialog_unsupported" msgid="7787241928013470089">"این دستگاه از این <xliff:g id="NAME_0">^1</xliff:g> پشتیبانی نمی‌کند. برای استفاده از این \n\n <xliff:g id="NAME_1">^1</xliff:g> با این دستگاه، باید ابتدا آن را راه‌اندازی کنید."</string>
-    <string name="storage_internal_format_details" msgid="8922023528848861812">"‏بعد از قالب‌بندی، می‌توانید از این <xliff:g id="NAME_0">^1</xliff:g> در دستگاه‌های دیگر استفاده کنید. \n\nهمه اطلاعات در این <xliff:g id="NAME_1">^1</xliff:g> پاک می‌شود. پشتیبان گرفتن از اطلاعات را قبل از شروع کار در نظر بگیرید. \n\n"<b>"از عکس‌ها و رسانه‌های دیگر پشتیبان بگیرید"</b>" \nفایل‌های رسانه‌تان را به فضای ذخیره‌سازی دیگری در این دستگاه منتقل کنید یا با استفاده از کابل USB آنها را به رایانه منتقل کنید.\n\n"<b>"از برنامه‌ها پشتیبان بگیرید"</b>" \nهمه برنامه‌های ذخیره شده در این <xliff:g id="NAME_6">^1</xliff:g> حذف نصب می‌شوند و اطلاعات آنها پاک می‌شود. برای حفظ این برنامه‌ها، آنها را به فضای ذخیره‌سازی دیگری در دستگاه منتقل کنید."</string>
+    <string name="storage_internal_format_details" msgid="8922023528848861812">"‏بعد از قالب‌بندی، می‌توانید از این <xliff:g id="NAME_0">^1</xliff:g> در دستگاه‌های دیگر استفاده کنید. \n\nهمه اطلاعات در این <xliff:g id="NAME_1">^1</xliff:g> پاک می‌شود. پشتیبان گرفتن از اطلاعات را قبل از شروع کار در نظر بگیرید. \n\n"<b>"از عکس‌ها و رسانه‌های دیگر پشتیبان بگیرید"</b>" \nفایل‌های رسانه‌تان را به فضای ذخیره‌سازی دیگری در این دستگاه منتقل کنید یا با استفاده از کابل USB آن‌ها را به رایانه منتقل کنید.\n\n"<b>"از برنامه‌ها پشتیبان بگیرید"</b>" \nهمه برنامه‌های ذخیره شده در این <xliff:g id="NAME_6">^1</xliff:g> حذف نصب می‌شوند و اطلاعات آن‌ها پاک می‌شود. برای حفظ این برنامه‌ها، آن‌ها را به فضای ذخیره‌سازی دیگری در دستگاه منتقل کنید."</string>
     <string name="storage_internal_unmount_details" msgid="487689543322907311"><b>"وقتی این <xliff:g id="NAME_0">^1</xliff:g> را جدا می‌کنید، برنامه‌های ذخیره شده در آن دیگر کار نمی‌کنند و فایل‌های رسانه ذخیره شده در آن تا وقتی دوباره جاگذاری نشود، در دسترس نخواهند بود."</b>" \n\nاین <xliff:g id="NAME_1">^1</xliff:g> فقط برای کار در این دستگاه قالب‌بندی شده است و در دستگاه‌های دیگر کار نمی‌کند."</string>
     <string name="storage_internal_forget_details" msgid="5606507270046186691">"برای استفاده از برنامه‌ها، عکس‌ها یا اطلاعاتی که در این <xliff:g id="NAME">^1</xliff:g> وجود دارد، آن را دوباره جاگذاری کنید.\n\nیا می‌توانید، اگر دستگاه ذخیره‌سازی در دسترس نیست، فراموش کردن آن را انتخاب کنید.\n\nاگر فراموش کردن را انتخاب کنید، همه داده‌هایی که در این دستگاه وجود دارد، برای همیشه از دست می‌رود.\n\nمی‌توانید بعداً برنامه‌ها را دوباره نصب کنید، اما داده‌های ذخیره شده آن‌ها در این دستگاه از بین می‌رود."</string>
     <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"<xliff:g id="NAME">^1</xliff:g> فراموش شود؟"</string>
@@ -1513,9 +1449,9 @@
     <string name="storage_wizard_init_internal_title" msgid="3256355049992147270">"استفاده به عنوان حافظه داخلی"</string>
     <string name="storage_wizard_init_internal_summary" msgid="2283798331883929674">"برای ذخیره کردن هر چیز فقط در این دستگاه، از جمله برنامه‌ها و عکس‌ها. به قالب‌بندی نیاز دارد که مانع از کار کردن آن با دستگاه‌های دیگر می‌شود."</string>
     <string name="storage_wizard_format_confirm_title" msgid="4898014527956178762">"قالب‌بندی به عنوان حافظه داخلی"</string>
-    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">"انجام قالب‌بندی <xliff:g id="NAME_0">^1</xliff:g> برای ایمن کردن آن لازم است. \n\nبعد از قالب‌بندی، این <xliff:g id="NAME_1">^1</xliff:g> فقط در این دستگاه کار می‌کند. \n\n"<b>"قالب‌بندی همه داده‌هایی را که درحال‌حاضر در <xliff:g id="NAME_2">^1</xliff:g> ذخیره شده است، پاک می‌کند."</b>"برای از دست ندادن داده، حتماً از آنها پشتیبان‌گیری کنید."</string>
+    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">"انجام قالب‌بندی <xliff:g id="NAME_0">^1</xliff:g> برای ایمن کردن آن لازم است. \n\nبعد از قالب‌بندی، این <xliff:g id="NAME_1">^1</xliff:g> فقط در این دستگاه کار می‌کند. \n\n"<b>"قالب‌بندی همه داده‌هایی را که درحال‌حاضر در <xliff:g id="NAME_2">^1</xliff:g> ذخیره شده است، پاک می‌کند."</b>"برای از دست ندادن داده، حتماً از آن‌ها پشتیبان‌گیری کنید."</string>
     <string name="storage_wizard_format_confirm_public_title" msgid="649252654496577680">"قالب‌بندی به‌عنوان فضای قابل حمل"</string>
-    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">"برای این کار قالب‌بندی <xliff:g id="NAME_0">^1</xliff:g> لازم است.\n\n"<b>"قالب‌بندی همه داده‌هایی را که درحال‌حاضر در <xliff:g id="NAME_1">^1</xliff:g> ذخیره شده است، پاک می‌کند."</b>" برای از دست ندادن داده‌ها، از آنها پشتیبان بگیرید."</string>
+    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">"برای این کار قالب‌بندی <xliff:g id="NAME_0">^1</xliff:g> لازم است.\n\n"<b>"قالب‌بندی همه داده‌هایی را که درحال‌حاضر در <xliff:g id="NAME_1">^1</xliff:g> ذخیره شده است، پاک می‌کند."</b>" برای از دست ندادن داده‌ها، از آن‌ها پشتیبان بگیرید."</string>
     <string name="storage_wizard_format_confirm_next" msgid="4412063054982084056">"پاک کردن و قالب‌بندی"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"در حال قالب‌بندی <xliff:g id="NAME">^1</xliff:g>..."</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"درحین قالب‌بندی، <xliff:g id="NAME">^1</xliff:g> را جدا نکنید."</string>
@@ -2581,7 +2517,7 @@
     <string name="voice_service_preference_section_title" msgid="4807795449147187497">"سرویس‌های ورودی گفتاری"</string>
     <string name="voice_interactor_preference_summary" msgid="3942881638813452880">"کلیدگفته کامل و تعامل"</string>
     <string name="voice_recognizer_preference_summary" msgid="9195427725367463336">"ویژگی ساده گفتار به نوشتار"</string>
-    <string name="voice_interaction_security_warning" msgid="7962884055885987671">"این سرویس ورودی گفتاری می‌تواند کنترل صوتی همیشه فعال را اجرا کند و از طرف شما برنامه‌هایی را کنترل کند که صدا در آنها فعال است. از <xliff:g id="VOICE_INPUT_SERVICE_APP_NAME">%s</xliff:g> است. استفاده از این سرویس فعال شود؟"</string>
+    <string name="voice_interaction_security_warning" msgid="7962884055885987671">"این سرویس ورودی گفتاری می‌تواند کنترل صوتی همیشه فعال را اجرا کند و از طرف شما برنامه‌هایی را کنترل کند که صدا در آن‌ها فعال است. از <xliff:g id="VOICE_INPUT_SERVICE_APP_NAME">%s</xliff:g> است. استفاده از این سرویس فعال شود؟"</string>
     <string name="tts_engine_preference_title" msgid="7808775764174571132">"موتور ترجیحی"</string>
     <string name="tts_engine_settings_title" msgid="1298093555056321577">"تنظیمات موتور"</string>
     <string name="tts_sliders_title" msgid="6901146958648426181">"زیروبمی و سرعت گفتار"</string>
@@ -3482,7 +3418,7 @@
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"دسترسی به اعلان برای <xliff:g id="SERVICE">%1$s</xliff:g> مجاز شود؟"</string>
     <string name="notification_assistant_security_warning_summary" msgid="3119843404577399036">"<xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> می‌تواند همه اعلان‌ها را بخواند، ازجمله اطلاعات شخصی مانند نام مخاطبین و پیام‌های نوشتاری که دریافت می‌کنید. همچنین می‌تواند اعلان‌ها را تغییر دهد، رد کند یا دکمه‌های عملکرد موجود در آن‌ها را راه‌اندازی کند. \n\nهمچنین به این برنامه امکان می‌دهد «مزاحم نشوید» را روشن یا خاموش کند و تنظیمات مربوطه را تغییر دهد."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"به دسترسی به اعلان برای <xliff:g id="SERVICE">%1$s</xliff:g> اجازه می‌دهید؟"</string>
-    <string name="notification_listener_security_warning_summary" msgid="1896899068512197964">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> می‌تواند همه اعلان‌ها را بخواند، از جمله اطلاعات شخصی مانند نام مخاطبین و پیام‌های نوشتاری که دریافت می‌کنید. همچنین می‌تواند اعلان‌ها را رد کند یا دکمه عمل آنها را فعال کند. \n\nهمچنین به این برنامه توانایی روشن یا خاموش کردن «مزاحم نشوید» و تغییر تنظیمات مربوطه را می‌دهد."</string>
+    <string name="notification_listener_security_warning_summary" msgid="1896899068512197964">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> می‌تواند همه اعلان‌ها را بخواند، از جمله اطلاعات شخصی مانند نام مخاطبین و پیام‌های نوشتاری که دریافت می‌کنید. همچنین می‌تواند اعلان‌ها را رد کند یا دکمه عمل آن‌ها را فعال کند. \n\nهمچنین به این برنامه توانایی روشن یا خاموش کردن «مزاحم نشوید» و تغییر تنظیمات مربوطه را می‌دهد."</string>
     <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"اگر دسترسی اعلان را برای <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> خاموش کنید، دسترسی «مزاحم نشوید» نیز ممکن است خاموش شود."</string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"خاموش کردن"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"لغو"</string>
@@ -3659,6 +3595,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"با «مزاحم نشوید»‌ که باعث روشن شدن صفحه‌نمایش می‌شود، اعلان‌ها را بی‌صدا کنید"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"تنظیمات اعلان"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"تأیید"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"بستن"</string>
     <string name="device_feedback" msgid="5351614458411688608">"ارسال بازخورد درباره این دستگاه"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"پین سرپرست را وارد کنید"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"روشن"</string>
@@ -3912,7 +3849,7 @@
     <string name="system_alert_window_apps_title" msgid="1537949185175079866">"برنامه‌ها"</string>
     <string name="system_alert_window_access_title" msgid="3074573819155116817">"نمایش روی سایر برنامه‌ها"</string>
     <string name="permit_draw_overlay" msgid="4468994037192804075">"مجاز کردن نمایش روی سایر برنامه‌ها"</string>
-    <string name="allow_overlay_description" msgid="2266886438777971131">"به برنامه‌‌‌ اجازه می‌دهد روی سایر برنامه‌هایی که درحال استفاده از آنها هستید نشان داده شود. ممکن است این قابلیت در استفاده شما از آن برنامه‌ها تداخل ایجاد کند یا طرز نمایش یا عملکرد آنها را تغییر دهد."</string>
+    <string name="allow_overlay_description" msgid="2266886438777971131">"به برنامه‌‌‌ اجازه می‌دهد روی سایر برنامه‌هایی که درحال استفاده از آن‌ها هستید نشان داده شود. ممکن است این قابلیت در استفاده شما از آن برنامه‌ها تداخل ایجاد کند یا طرز نمایش یا عملکرد آن‌ها را تغییر دهد."</string>
     <string name="keywords_vr_listener" msgid="902737490270081131">"‏vr واقعیت مجازی شنونده استریو یاور خدمات"</string>
     <string name="keywords_system_alert_window" msgid="5810664019581804395">"نمایش کادر گفتگوی هشدار سیستم روی سایر برنامه‌ها"</string>
     <string name="overlay_settings" msgid="2030836934139139469">"نمایش روی سایر برنامه‌ها"</string>
@@ -4419,6 +4356,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"تغییرات در سازگاری برنامه"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"روشن/خاموش کردن تغییرات سازگاری برنامه"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"تغییرات فعال پیش‌فرض"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"تغییرات غیرفعال پیش‌فرض"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"تنظیم در این تلفن پشتیبانی نمی‌شود"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"تنظیم در این رایانه لوحی پشتیبانی نمی‌شود"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"تنظیم در این دستگاه پشتیبانی نمی‌شود"</string>

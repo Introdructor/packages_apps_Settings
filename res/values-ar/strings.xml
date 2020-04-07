@@ -35,49 +35,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"يُرجى تفعيل خيارات المطوري أولاً."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"اللاسلكي والشبكات"</string>
     <string name="header_category_system" msgid="1665516346845259058">"النظام"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"تفعيل اتصال البيانات"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"إيقاف اتصال البيانات"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"‏خاضع لإدارة حسابات VoLTE"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"مكالمات الفيديو متوفِّرة"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"‏اتصال Wifi متوفِّر"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"‏توفير EAB/وجوده مسبقًا"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"‏بيانات CBRS"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"‏تفعيل DSDS"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"هل تريد إعادة تشغيل الجهاز؟"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"يجب إعادة تشغيل جهازك لتغيير هذا الإعداد."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"إعادة تشغيل"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"إلغاء"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"طاقة راديو الجوال"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"‏عرض دفتر عناوين SIM"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"عرض أرقام الاتصال الثابت"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"عرض أرقام اتصال الخدمة"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"حالة خدمة الرسائل الفورية"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"حالة الرسائل الفورية"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"مسجل"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"غير مسجل"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"متاح"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"غير متاح"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"‏تسجيل الرسائل الفورية: <xliff:g id="STATUS">%1$s</xliff:g>\nالصوت عبر LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nالصوت عبر WiFi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nمكالمات الفيديو: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nواجهةUT: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"قيد الخدمة"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"خارج نطاق الخدمة"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"مكالمات الطوارئ فقط"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"تم إيقاف اللاسلكي"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"التجوال"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"ليس هناك تجوال"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"متوقف"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"الرنين"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"الاتصال قيد التقدم"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"غير متصل"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"جارٍ الاتصال"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"متصل"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"معلق"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"غير معروف"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"الحزم"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"بايت"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"بالديسيبل"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"‏إلغاء تركيب وحدة تخزين USB"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"‏إلغاء تحميل بطاقة SD"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"‏محو وحدة تخزين USB"</string>
@@ -213,46 +181,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"المنفذ الذي كتبته غير صالح."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"‏يستخدم المتصفح الخادم الوكيل HTTP، ولكنه ربما لا تستخدمه التطبيقات الأخرى."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"‏عنوان URL لتهيئة PAC: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"المعرّف الفرعي الحالي:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"‏المعرّف الفرعي لشريحة SIM التلقائية للبيانات:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"‏معدّل نقل بيانات DL (كيلوبت في الثانية):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"‏معدّل نقل بيانات UL (كيلوبت في الثانية):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"معلومات الموقع الخلوية (تم الإيقاف):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"‏تهيئة قناة LTE Physical:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"معدل تحديث المعلومات الخلوية:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"جميع معلومات القياس الخلوية:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"خدمة البيانات:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"تجوال:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"إعادة توجيه الاتصال:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"‏عدد مرات إعادة تعيين PPP منذ التشغيل:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"الشبكة الحالية:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"البيانات المستلمة:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"الخدمة الصوتية:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"قوة الإشارة:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"حالة المكالمة الصوتية:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"البيانات المرسلة:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"انتظار الرسائل:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"رقم الهاتف:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"تحديد النطاق اللاسلكي"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"نوع الشبكة الصوتية:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"نوع شبكة البيانات:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"اختيار فهرس الهاتف"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"تعيين نوع الشبكة المفضل:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"‏فحص اتصال اسم المضيف (www.google.com) عبر IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"‏فحص اتصال اسم المضيف (www.google.com) عبر IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"‏اختبار عميل HTTP:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"‏تشغيل اختبار Ping"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"تحديث"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"تحديث"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"تبديل فحص نظام أسماء النطاقات"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"‏المعلومات/الإعدادات الخاصة بـ OEM"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"تحديد وضع النطاق اللاسلكي"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"جارٍ تحميل قائمة النطاقات…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"تعيين"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"غير ناجح"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"تم بنجاح"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"‏تدخل التغييرات حيز التنفيذ عند إعادة توصيل كابل USB."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"‏تفعيل تخزين USB كبير السعة"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"إجمالي وحدات البايت:"</string>
@@ -295,8 +227,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"اختيار نشاط"</string>
     <string name="device_info_label" msgid="2935198177248803716">"معلومات الجهاز"</string>
     <string name="display_label" msgid="3056320781191343221">"شاشة العرض"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"معلومات الجهاز اللوحي"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"معلومات الهاتف"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"‏وحدة تخزين USB"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"‏بطاقة SD"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"إعدادات الخادم الوكيل"</string>
@@ -550,8 +480,8 @@
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"تشفير الجهاز اللوحي"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"تشفير الهاتف"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"مشفّر"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"يمكنك تشفير حساباتك وإعداداتك والتطبيقات التي تم تنزيلها وبياناتها والوسائط والملفات الأخرى. وبعد تشفير جهازك اللوحي، بافتراض أنك قد أعددت قفل الشاشة (باستخدام نقش أو رقم تعريف شخصي أو كلمة مرور)، يجب فتح قفل الشاشة لفك تشفير الجهاز اللوحي في كل مرة تشغله فيها. والوسيلة الأخرى الوحيدة لفك تشفير الجهاز هي إجراء إعادة الضبط بحسب بيانات المصنع، ومحو كل بياناتك.\n\nيستغرق التشفير ساعة أو أكثر. ويجب البدء ببطارية مشحونة وتوصيل الجهاز اللوحي بالشاحن أثناء عملية التشفير. فإذا أوقفت العملية، ستفقد بعض أو كل بياناتك"</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"يمكنك تشفير حساباتك وإعداداتك والتطبيقات التي تم تنزيلها وبياناتها والوسائط والملفات الأخرى. وبعد تشفير هاتفك، وبافتراض أنك قد أعددت قفل الشاشة (عبر النقش أو رقم التعريف الشخصي أو كلمة المرور)، يجب فتح قفل الشاشة لفك تشفير الهاتف في كل مرة تشغله فيها. الطريقة الوحيدة الأخرى لفك تشفير الجهاز هي إجراء إعادة الضبط بحسب بيانات المصنع، ومحو كل بياناتك.\n\nيستغرق التشفير ساعة أو أكثر. يجب البدء ببطارية مشحونة وتوصيل الهاتف بالشاحن أثناء عملية التشفير. فإذا أوقفت هذه العملية، ستفقد بعض أو كل البيانات."</string>
+    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"يمكنك تشفير حساباتك وإعداداتك والتطبيقات التي تم تنزيلها وبياناتها والوسائط والملفات الأخرى. وبعد تشفير جهازك اللوحي، بافتراض أنك قد أعددت قفل الشاشة (باستخدام نقش أو رقم تعريف شخصي أو كلمة مرور)، يجب فتح قفل الشاشة لفك تشفير الجهاز اللوحي في كل مرة تشغله فيها. والوسيلة الأخرى الوحيدة لفك تشفير الجهاز هي إجراء إعادة الضبط على الإعدادات الأصلية، ومحو كل بياناتك.\n\nيستغرق التشفير ساعة أو أكثر. ويجب البدء ببطارية مشحونة وتوصيل الجهاز اللوحي بالشاحن أثناء عملية التشفير. فإذا أوقفت العملية، ستفقد بعض أو كل بياناتك"</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"يمكنك تشفير حساباتك وإعداداتك والتطبيقات التي تم تنزيلها وبياناتها والوسائط والملفات الأخرى. وبعد تشفير هاتفك، وبافتراض أنك قد أعددت قفل الشاشة (عبر النقش أو رقم التعريف الشخصي أو كلمة المرور)، يجب فتح قفل الشاشة لفك تشفير الهاتف في كل مرة تشغله فيها. الطريقة الوحيدة الأخرى لفك تشفير الجهاز هي إجراء إعادة الضبط على الإعدادات الأصلية، ومحو كل بياناتك.\n\nيستغرق التشفير ساعة أو أكثر. يجب البدء ببطارية مشحونة وتوصيل الهاتف بالشاحن أثناء عملية التشفير. فإذا أوقفت هذه العملية، ستفقد بعض أو كل البيانات."</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"تشفير الجهاز اللوحي"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"تشفير الهاتف"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"اشحن البطارية وأعد المحاولة."</string>
@@ -571,11 +501,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"تحذير: سيتم محو محتوى جهازك بعد فشل <xliff:g id="COUNT">^1</xliff:g> من المحاولات الأخرى لفتح القفل!"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"اكتب كلمة المرور"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"لم يتم التشفير بنجاح"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"‏تمت مقاطعة التشفير ويتعذر الاستكمال. ونتيجة لذلك، لن تتمكن بعد الآن من الدخول إلى البيانات على جهازك اللوحي. \n\nلاستئناف استخدام الجهاز اللوحي، يلزمك إجراء إعادة ضبط المصنع. وعند إعداد الجهاز اللوحي بعد إعادة الضبط، ستكون لديك فرصة استعادة أي بيانات تم نسخها احتياطيًا إلى حساب Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"‏تمت مقاطعة التشفير ويتعذر الاستكمال. ونتيجة لذلك، لن تتمكن بعد الآن من الدخول إلى البيانات على هاتفك. \n\nلاستئناف استخدام الهاتف، يجب إجراء إعادة ضبط المصنع. وعند إعداد الهاتف بعد إعادة الضبط، ستكون لديك فرصة استعادة أي بيانات تم نسخها احتياطيًا إلى حساب Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"‏تمت مقاطعة التشفير ويتعذر الاستكمال. ونتيجة لذلك، لن تتمكن بعد الآن من الدخول إلى البيانات على جهازك اللوحي. \n\nلاستئناف استخدام الجهاز اللوحي، يلزمك إجراء إعادة الضبط على الإعدادات الأصلية. وعند إعداد الجهاز اللوحي بعد إعادة الضبط، ستكون لديك فرصة استعادة أي بيانات تم نسخها احتياطيًا إلى حساب Google."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"‏تمت مقاطعة التشفير ويتعذر الاستكمال. ونتيجة لذلك، لن تتمكن بعد الآن من الدخول إلى البيانات على هاتفك. \n\nلاستئناف استخدام الهاتف، يجب إجراء إعادة الضبط على الإعدادات الأصلية. وعند إعداد الهاتف بعد إعادة الضبط، ستكون لديك فرصة استعادة أي بيانات تم نسخها احتياطيًا إلى حساب Google."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"لم ينجح إلغاء التشفير"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"‏كلمة المرور التي أدخلتها صحيحة، ولكن للأسف بياناتك تالفة. \n\nلاستئناف استخدام جهازك اللوحي، يلزمك إجراء إعادة تعيين إعدادات المصنع. عند إعداد الجهاز اللوحي بعد إعادة التعيين، ستكون لديك فرصة لاستعادة أي بيانات تم نسخها احتياطيًا في حسابك على Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"‏كلمة المرور التي أدخلتها صحيحة، ولكن للأسف بياناتك تالفة. \n\nلاستئناف استخدام هاتفك، يلزمك إجراء إعادة تعيين إعدادات المصنع. عند إعداد الهاتف بعد إعادة التعيين، ستكون لديك فرصة لاستعادة أي بيانات تم نسخها احتياطيًا في حسابك على Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"‏كلمة المرور التي أدخلتها صحيحة، ولكن للأسف بياناتك تالفة. \n\nلاستئناف استخدام جهازك اللوحي، يلزمك إجراء إعادة الضبط على الإعدادات الأصلية. عند إعداد الجهاز اللوحي بعد إعادة الضبط، ستكون لديك فرصة لاستعادة أي بيانات تم نسخها احتياطيًا في حسابك على Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"‏كلمة المرور التي أدخلتها صحيحة، ولكن للأسف بياناتك تالفة. \n\nلاستئناف استخدام هاتفك، يلزمك إجراء إعادة الضبط على الإعدادات الأصلية. عند إعداد الهاتف بعد إعادة الضبط، ستكون لديك فرصة لاستعادة أي بيانات تم نسخها احتياطيًا في حسابك على Google."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"تبديل أسلوب الإدخال"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"تأمين هاتفك"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"تعيين قفل شاشة لحماية الجهاز اللوحي"</string>
@@ -817,8 +747,8 @@
     <string name="bluetooth_settings_title" msgid="2642029095769509647">"بلوتوث"</string>
     <string name="bluetooth_settings_summary" msgid="6805458703566046784">"إدارة الاتصالات، تعيين اسم الجهاز وقابلية الاكتشاف"</string>
     <string name="bluetooth_pairing_request" msgid="7762990650683525640">"هل تريد الإقران مع <xliff:g id="DEVICE_NAME">%1$s</xliff:g>؟"</string>
-    <string name="bluetooth_pairing_key_msg" msgid="1329835708475701761">"شفرة إقران البلوتوث"</string>
-    <string name="bluetooth_enter_passkey_msg" msgid="5806420933599368592">"اكتب شفرة الإقران، ثم اضغط على \"رجوع\" أو \"إدخال\""</string>
+    <string name="bluetooth_pairing_key_msg" msgid="1329835708475701761">"رمز إقران البلوتوث"</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="5806420933599368592">"اكتب رمز الإقران، ثم اضغط على \"رجوع\" أو \"إدخال\""</string>
     <string name="bluetooth_enable_alphanumeric_pin" msgid="7256286571636950635">"‏يشتمل رمز PIN على أحرف ورموز"</string>
     <string name="bluetooth_pin_values_hint" msgid="2753202519050044670">"0000 أو 1234 عادة"</string>
     <string name="bluetooth_pin_values_hint_16_digits" msgid="5603928271430883558">"يجب أن يتكون من ١٦ رقمًا"</string>
@@ -1197,11 +1127,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"تفضيل التجوال"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
     <item msgid="8622872038388687383">"الجوّال"</item>
     <item msgid="3027927219952052398">"‏Wi-Fi فقط"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"Wi-Fi"</item>
     <item msgid="7566603075659706590">"الجوّال"</item>
@@ -1214,6 +1149,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"عنوان الطوارئ"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"‏يتم اعتباره موقعك الجغرافي عند إجراء مكالمة طوارئ عبر Wi‑Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"مزيد من المعلومات"</annotation>" عن ميزات نظام أسماء النطاقات الخاص"</string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"مفعَّل"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"الإعداد تحت إدارة مشغّل شبكة الجوّال"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"‏تفعيل الاتصال عبر Wi‑Fi"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"‏تشغيل الاتصال عبر Wi-Fi"</string>
@@ -1732,7 +1668,7 @@
     <string name="master_clear_final_button_text" msgid="1721164700940719292">"مسح كل شيء"</string>
     <string name="master_clear_failed" msgid="6458678864313618526">"‏لم يتم تنفيذ إعادة التعيين نظرًا لعدم توفر خدمة System Clear."</string>
     <string name="master_clear_confirm_title" msgid="632482173088680058">"هل تريد محو جميع البيانات؟"</string>
-    <string name="master_clear_not_available" msgid="3419345724070828273">"لا تتوفر إمكانية إعادة تعيين إعدادات المصنع لهذا المستخدم"</string>
+    <string name="master_clear_not_available" msgid="3419345724070828273">"لا تتوفر إمكانية إعادة الضبط على الإعدادات الأصلية لهذا المستخدم"</string>
     <string name="master_clear_progress_title" msgid="480032747847804624">"جارٍ محو البيانات"</string>
     <string name="master_clear_progress_text" msgid="8891964820486632180">"يرجى الانتظار..."</string>
     <string name="call_settings_title" msgid="2531072044177194164">"اعدادات المكالمات"</string>
@@ -1875,9 +1811,9 @@
     <string name="lockpassword_strong_auth_required_work_pattern" msgid="6803652050512161140">"استخدام نقش للملف الشخصي للعمل لزيادة الأمان"</string>
     <string name="lockpassword_strong_auth_required_work_pin" msgid="4208510396448713500">"إدخال رقم تعريف شخصي للملف الشخصي للعمل لزيادة الأمان"</string>
     <string name="lockpassword_strong_auth_required_work_password" msgid="6119482061429323090">"إدخال كلمة مرور للملف الشخصي للعمل لزيادة الأمان"</string>
-    <string name="lockpassword_confirm_your_pattern_details_frp" msgid="6351784282865851482">"تم إعادة تعيين هاتفك على إعدادات المصنع. لاستخدام هذا الهاتف، أدخل النقش السابق."</string>
-    <string name="lockpassword_confirm_your_pin_details_frp" msgid="2128795640346033349">"تم إعادة تعيين هاتفك على إعدادات المصنع. لاستخدام هذا الهاتف، أدخل رقم التعريف الشخصي السابق."</string>
-    <string name="lockpassword_confirm_your_password_details_frp" msgid="4031863562975125016">"تم إعادة تعيين هاتفك على إعدادات المصنع. لاستخدام هذا الهاتف، أدخل كلمة المرور السابقة."</string>
+    <string name="lockpassword_confirm_your_pattern_details_frp" msgid="6351784282865851482">"تم إعادة تعيين هاتفك على الإعدادات الأصلية. لاستخدام هذا الهاتف، أدخل النقش السابق."</string>
+    <string name="lockpassword_confirm_your_pin_details_frp" msgid="2128795640346033349">"تم إعادة تعيين هاتفك على الإعدادات الأصلية. لاستخدام هذا الهاتف، أدخل رقم التعريف الشخصي السابق."</string>
+    <string name="lockpassword_confirm_your_password_details_frp" msgid="4031863562975125016">"تم إعادة تعيين هاتفك على الإعدادات الأصلية. لاستخدام هذا الهاتف، أدخل كلمة المرور السابقة."</string>
     <string name="lockpassword_confirm_your_pattern_header_frp" msgid="5641858015891896427">"التحقق من النقش"</string>
     <string name="lockpassword_confirm_your_pin_header_frp" msgid="8285647793164729982">"التحقق من رقم التعريف الشخصي"</string>
     <string name="lockpassword_confirm_your_password_header_frp" msgid="7932240547542564033">"التحقق من كلمة المرور"</string>
@@ -3165,7 +3101,7 @@
     <string name="nfc_payment_favor_open" msgid="8554643344050373346">"إلا إذا كان هناك تطبيق دفع آخر مفتوحًا"</string>
     <string name="nfc_payment_pay_with" msgid="10107565447713526">"عند أحد أجهزة انقر وادفع الطرفية، يمكنك الدفع باستخدام:"</string>
     <string name="nfc_how_it_works_title" msgid="1363791241625771084">"الدفع عند الجهاز الطرفي"</string>
-    <string name="nfc_how_it_works_content" msgid="1141382684788210772">"يمكنك إعداد تطبيق للدفع، وبعد ذلك لن يلزمك سوى توصيل الجزء الخلفي من الهاتف بأي جهاز طرفي يحتوي على رمز عدم التلامس."</string>
+    <string name="nfc_how_it_works_content" msgid="1141382684788210772">"يمكنك إعداد تطبيق للدفع، وبعد ذلك لن يلزمك سوى توصيل الجزء الخلفي من الهاتف بأي جهاز طرفي يحتوي على رمز عدم لمس الجهاز."</string>
     <string name="nfc_how_it_works_got_it" msgid="4717868843368296630">"حسنًا"</string>
     <string name="nfc_more_title" msgid="4202405349433865488">"المزيد..."</string>
     <string name="nfc_payment_set_default_label" msgid="9046299254316590677">"هل تريد تعيينه كتفضيل؟"</string>
@@ -3318,11 +3254,11 @@
     <string name="keywords_storage" msgid="3004667910133021783">"مسافة، قرص، محرك أقراص ثابتة، استخدام جهاز"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"استخدام الطاقة، شحن"</string>
     <string name="keywords_spell_checker" msgid="5148906820603481657">"تهجئة، قاموس، تدقيق إملائي، تصحيح تلقائي"</string>
-    <string name="keywords_voice_input" msgid="7534900094659358971">"أداة تعرف، إدخال، تحدث، نطق، لغة، بدون لمس الجهاز، تعرف، بدون لمس الجهاز، كلمة، مسيئة، صوت، سجل، سماعة رأس بلوتوث"</string>
+    <string name="keywords_voice_input" msgid="7534900094659358971">"أداة تعرف، إدخال، تحدث، قول، لغة، بدون لمس الجهاز، تعرف، بدون لمس الجهاز، كلمة، مسيئة، صوت، سجل، سماعة رأس بلوتوث"</string>
     <string name="keywords_text_to_speech_output" msgid="6728080502619011668">"تقييم، لغة، تلقائي، يتحدث، تحدث، تحويل نص إلى كلام، سهولة الاستخدام، قارئ شاشة، مكفوف"</string>
     <string name="keywords_date_and_time" msgid="4402136313104901312">"ساعة، عسكرية"</string>
     <string name="keywords_network_reset" msgid="4075670452112218042">"إعادة ضبط، استرداد، المصنع"</string>
-    <string name="keywords_factory_data_reset" msgid="4979623326958976773">"مسح، حذف، استعادة، محو، إزالة، إعادة الضبط بحسب إعدادات المصنع"</string>
+    <string name="keywords_factory_data_reset" msgid="4979623326958976773">"مسح، حذف، استعادة، محو، إزالة، إعادة الضبط على الإعدادات الأصلية"</string>
     <string name="keywords_printing" msgid="3528250034669909466">"طابعة"</string>
     <string name="keywords_sounds" msgid="1850691834585575875">"صفارة مكبر الصوت، مكبر صوت، مستوى الصوت، كتم الصوت، صامت، صوت، موسيقى"</string>
     <string name="keywords_sounds_and_notifications_interruptions" msgid="1500312884808362467">"ممنوع الإزعاج، ممنوع، المقاطعة، مقاطعة"</string>
@@ -3336,7 +3272,7 @@
     <string name="keywords_app_permissions" msgid="2061773665663541610">"تطبيقات، أذونات، أمان"</string>
     <string name="keywords_default_apps" msgid="4601664230800605416">"تطبيقات، تلقائي"</string>
     <string name="keywords_ignore_optimizations" msgid="8967142288569785145">"تاجه التخصيصات، قيلولة، تطبيقات وضع الاستعداد"</string>
-    <string name="keywords_color_mode" msgid="1193896024705705826">"‏نابض بالحياة، نموذج أحمر أخضر أزرق، srgb، لون، طبيعي، قياسي"</string>
+    <string name="keywords_color_mode" msgid="1193896024705705826">"‏نابض بالحياة، نموذج أحمر أخضر أزرق، srgb، لون، طبيعي، عادي"</string>
     <string name="keywords_color_temperature" msgid="8159539138837118453">"‏درجة حرارة الألوان، D65، ‏D73، أبيض، أصفر، أزرق، دافئ، بارد"</string>
     <string name="keywords_lockscreen" msgid="3656926961043485797">"مرر لإلغاء التأمين، كلمة مرور، نقش، رقم تعريف شخصي"</string>
     <string name="keywords_profile_challenge" msgid="5135555521652143612">"المنافسة في العمل، عمل، ملف شخصي"</string>
@@ -3879,6 +3815,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"السماح للإشعارات التي يتجاهلها وضع \"الرجاء عدم الإزعاج\" بتشغيل الشاشة"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"إعدادات الإشعارات"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"موافق"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"إغلاق"</string>
     <string name="device_feedback" msgid="5351614458411688608">"إرسال تعليقات حول هذا الجهاز"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"إدخال رقم التعريف الشخصي للمشرف"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"مفعّل"</string>
@@ -4560,7 +4497,7 @@
     <string name="oem_unlock_enable_disabled_summary_connectivity" msgid="8045017109714463041">"الاتصال بالإنترنت أولاً"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="7425519481227423860">"الاتصال بالإنترنت أو الاتصال بمشغِّل شبكة الجوّال"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="168124660162907358">"عدم التوفر على الأجهزة التي يقفلها مشغل شبكة الجوال"</string>
-    <string name="oem_lock_info_message" msgid="8843145669619429197">"يُرجى إعادة تشغيل الجهاز لتمكين ميزة حماية الجهاز."</string>
+    <string name="oem_lock_info_message" msgid="8843145669619429197">"يُرجى إعادة تشغيل الجهاز لتفعيل ميزة حماية الجهاز."</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="706230592123831676">"تمت إتاحة <xliff:g id="SIZE">%1$s</xliff:g> كإجمالي\n\nتم تنفيذ العملية آخر مرة في <xliff:g id="DATE">%2$s</xliff:g>"</string>
     <string name="web_action_enable_title" msgid="6654581786741216382">"التطبيقات الفورية"</string>
     <string name="web_action_enable_summary" msgid="2658930257777545990">"فتح الروابط في التطبيقات، حتى إذا لم تكن التطبيقات مثبّتة"</string>
@@ -4739,6 +4676,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"التغييرات في توافق التطبيقات"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"التبديل بين تغييرات توافق التطبيقات"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"التغييرات التي يتم تفعيلها تلقائيًا"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"التغييرات التي يتم إيقافها تلقائيًا"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"الإعداد غير متوافق مع هذا الهاتف"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"الإعداد غير متوافق مع هذا الجهاز اللوحي"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"الإعداد غير متوافق مع هذا الجهاز"</string>

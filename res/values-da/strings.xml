@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Aktivér Indstillinger for udviklere først."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Trådløs og netværk"</string>
     <string name="header_category_system" msgid="1665516346845259058">"System"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"Aktivér dataforbindelse"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"Deaktiver dataforbindelse"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE er provisioneret"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"Videoopkald er provisioneret"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"Wi-Fi-opkald er provisioneret"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/tilstedeværelse er provisioneret"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"CBRS-data"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"Aktivér DSDS"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"Vil du genstarte enheden?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"Genstart enheden for at skifte indstilling."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"Genstart"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"Annuller"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"Mobilsendestyrke"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"Vis adressebog på SIM-kortet"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"Vis numre til begrænset opkald"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"Vis tjenesten faste opkaldsnumre"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"IMS-tjenestestatus"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"IMS-status"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"Registreret"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"Ikke registreret"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"Tilgængelig"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"Ikke tilgængelig"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS-registrering: <xliff:g id="STATUS">%1$s</xliff:g>\nVoLTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nVoWiFi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nVideoopkald: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT-grænseflade: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"I drift"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Ude af drift"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Kun nødopkald"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Radioen er slukket"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Roaming"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Roamer ikke"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Ikke aktiv"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Ringer"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"Opkald i gang"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"Afbrudt"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"Forbinder"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"Tilsluttet"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Sat på pause"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Ukendt"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"pk."</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"bytes"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"Demonter USB-lager"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"Demonter SD-kort"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Slet USB-lager"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"Den indtastede port er ikke gyldig."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"HTTP-proxyen anvendes af browseren, men må ikke bruges af andre apps."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"Webadresse til PAC: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"Nuværende under-id:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"Under-id for standard-SIM-kort til data:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"Båndbredde til download (kbps):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"Båndbredde til upload (kbps):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"Oplysning om placering af celle (udfaset):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"Fysisk kanalkonfiguration for LTE:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"Opdateringsfrekvens for celleoplysninger:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"Alle oplysninger om cellemåling:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"Datatjeneste:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"Roaming:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI-nummer:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"Omdirigering af opkald:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"Antal PPP-nulstillinger siden start:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"Aktuelt netværk:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"Data modtaget:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"Taletjeneste:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"Signalstyrke:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"Status for taleopkald:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"Data sendt:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"Besked venter:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"Telefonnummer:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"Vælg radiobånd"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"Talenetværkstype:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"Datanetværkstype:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"Vælg telefonindeks"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"Angiv den foretrukne netværkstype:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"Ping værtsnavn (www.google.com) IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"Ping værtsnavn (www.google.com) IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"HTTP-klienttest:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"Kør ping-test"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"Opdater"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"Opdater"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"Skift DNS-kontrol"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"OEM-specifikke oplysninger/indstillinger"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"Konfigurer radiobåndstilstand"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"Indlæser båndliste…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"Angiv"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"Mislykkedes"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"Lykkedes"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"Ændringerne træder i kraft, når USB-kablet tilsluttes igen."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"Aktivér USB-masselagring"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"Bytes i alt:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"Vælg aktivitet"</string>
     <string name="device_info_label" msgid="2935198177248803716">"Enhedsoplysninger"</string>
     <string name="display_label" msgid="3056320781191343221">"Skærm"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"Oplysninger om tabletcomputeren"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"Telefonoplysninger"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB-lager"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD-kort"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Proxyindstillinger"</string>
@@ -1121,11 +1051,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Præferencer for roaming"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
     <item msgid="8622872038388687383">"Mobil"</item>
     <item msgid="3027927219952052398">"Kun Wi-Fi"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"Wi-Fi"</item>
     <item msgid="7566603075659706590">"Mobil"</item>
@@ -1138,6 +1073,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"Adresse til nødstilfælde"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Anvendes som din placering, hvis du foretager et nødopkald via Wi-Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Få flere oplysninger"</annotation>" om private DNS-funktioner"</string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"Til"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"Indstillingen administreres af mobilselskabet"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Aktivér Wi-Fi-opkald"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"Aktivér Wi-Fi-opkald"</string>
@@ -1310,7 +1246,7 @@
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">"Hvornår skal det vises"</string>
     <string name="doze_title" msgid="7164999188166153712">"Nye notifikationer"</string>
     <string name="doze_summary" msgid="1047254712885464738">"Væk skærmen, når du modtager notifikationer"</string>
-    <string name="doze_always_on_title" msgid="3357953547262808865">"Altid aktiveret"</string>
+    <string name="doze_always_on_title" msgid="3357953547262808865">"Altid aktiv"</string>
     <string name="doze_always_on_summary" msgid="1593188198982222910">"Vis klokkeslæt, notifikationsikoner og anden info. Øget batteriforbrug."</string>
     <string name="title_font_size" msgid="570613010306330622">"Skriftstørrelse"</string>
     <string name="short_summary_font_size" msgid="184712645848458143">"Gør teksten større eller mindre"</string>
@@ -3659,6 +3595,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"Tillad, at notifikationer, der gøres lydløse af Forstyr ikke, tænder skærmen"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"Notifikationsindstillinger"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"OK"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"Luk"</string>
     <string name="device_feedback" msgid="5351614458411688608">"Send feedback om denne enhed"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"Angiv administratorpinkoden"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"Til"</string>
@@ -4419,6 +4356,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"Ændringer i appkompatibilitet"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Skift appens kompatibilitetsændringer"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Ændringer i standardvalg for aktiveret"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Ændringer i standardvalg for deaktiveret"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Indstillingen understøttes ikke på denne telefon"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Indstillingen understøttes ikke på denne tablet"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Indstillingen understøttes ikke på denne enhed"</string>

@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"કૃપા કરીને પહેલાં વિકાસકર્તાના વિકલ્પો સક્ષમ કરો."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"વાયરલેસ અને નેટવર્ક્સ"</string>
     <string name="header_category_system" msgid="1665516346845259058">"સિસ્ટમ"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"ડેટા કનેક્શન સક્ષમ કરો"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"ડેટા કનેક્શન અક્ષમ કરો"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE ની જોગવાઈ કરી"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"વીડિઓ કૉલિંગની જોગવાઈ કરી"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"Wifi કૉલિંગની જોગવાઈ કરી"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/ઉપસ્થિતિની જોગવાઈ કરી"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"Cbrs ડેટા"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"DSDS ચાલુ કરો"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"ડિવાઇસ ફરી શરૂ કરીએ?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"આ સેટિંગમાં ફેરફાર કરવા માટે તમારા ડિવાઇસને ફરી શરૂ કરો."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"ફરી શરૂ કરો"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"રદ કરો"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"મોબાઇલ રેડિયો પાવર"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"સિમ સરનામાં પુસ્તિકા જુઓ"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"ફિક્સ્ડ ડાયલિંગ નંબર્સ જુઓ"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"સેવા ડાયલિંગ નંબર્સ જુઓ"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"IMS સેવા સ્થિતિ"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"IMS સ્થિતિ"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"નોંધણી કરાઈ"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"નોંધણી કરેલ નથી"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"ઉપલબ્ધ"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"અનુપલબ્ધ"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS નોંધણી: <xliff:g id="STATUS">%1$s</xliff:g>\nLTE પર વૉઇસ: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nWiFi પર વૉઇસ: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nવીડિઓ કૉલિંગ: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT ઇન્ટરફેસ: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"સેવામાં"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"કાર્યરત્ નથી"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"ફક્ત કટોકટીના કૉલ્સ"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"રેડિઓ બંધ છે"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"રોમિંગ"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"રોમિંગ નહીં"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"નિષ્ક્રિય"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"રિંગ કરે છે"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"કૉલ ચાલી રહ્યો છે"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"ડિસ્કનેક્ટ કર્યું"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"કનેક્ટ થઈ રહ્યું છે"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"કનેક્ટ કર્યું"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"સસ્પેન્ડેડ"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"અજાણી"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"pkts"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"બાઇટ્સ"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"USB સ્ટોરેજ અનમાઉન્ટ કરો"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"SD કાર્ડને અનમાઉન્ટ કરો"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"USB સ્ટોરેજ ભૂસી નાંખો"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"તમે ટાઇપ કરેલ પોર્ટ માન્ય નથી."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"HTTP પ્રોક્સીનો ઉપયોગ બ્રાઉઝર દ્વારા કરવામાં આવે છે પરંતુ અન્ય ઍપ્લિકેશનો દ્વારા કરી શકાતો નથી."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"PAC URL: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"હાલનું subId:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"ડિફૉલ્ટ ડેટા SIMનું SubId:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"DL બૅન્ડવિડ્થ (kbps):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"UL બૅન્ડવિડ્થ (kbps):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"સેલ સ્થાન માહિતી (ટાળેલ):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"LTE ભૌતિક ચૅનલની ગોઠવણી:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"સેલ માહિતી તાજું કરવાનો દર:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"તમામ સેલ માપ માહિતી:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"ડેટા સેવા:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"રોમિંગ:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"કૉલ રીડાયરેક્ટ:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"બૂટ કર્યા સુધીમાં PPP ફરીથી સેટ કરોની સંખ્યા:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"વર્તમાન નેટવર્ક:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"ડેટા પ્રાપ્ત થયો:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"વૉઇસ સેવા:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"સિગ્નલની પ્રબળતા:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"વૉઇસ કૉલ સ્થિતિ:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"ડેટા મોકલ્યો:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"સંદેશ રાહ જોઈ રહ્યું છે:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"ફોન નંબર:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"રેડિઓ બેન્ડ પસંદ કરો"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"વૉઇસ નેટવર્ક પ્રકાર:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"ડેટા નેટવર્કનો પ્રકાર:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"ફોનની અનુક્રમણિકા પસંદ કરો"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"પસંદગીનો નેટવર્ક પ્રકાર સેટ કરો:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"હોસ્ટનું નામ પિંગ કરો(www.google.com) IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"હોસ્ટનું નામ પિંગ કરો(www.google.com) IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"HTTP ક્લાઇન્ટ પરીક્ષણ:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"પિંગ પરીક્ષણ શરૂ કરો"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"અપડેટ કરો"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"તાજું કરો"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"DNS તપાસ ટૉગલ કરો"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"OEM-વિશિષ્ટ માહિતી/સેટિંગ્સ"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"રેડિઓ બેન્ડ મોડ સેટ કરો"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"બેન્ડ સૂચિ લોડ કરી રહ્યું છે…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"સેટ કરો"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"અસફળ"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"સફળ"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"જ્યારે USB કેબલ ફરીથી કનેક્ટ થાય ત્યારે ફેરફારો પ્રભાવમાં આવે છે."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"USB માસ સ્ટોરેજને સક્ષમ કરો"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"કુલ બાઇટ્સ:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"પ્રવૃત્તિ પસંદ કરો"</string>
     <string name="device_info_label" msgid="2935198177248803716">"ઉપકરણ માહિતી"</string>
     <string name="display_label" msgid="3056320781191343221">"સ્ક્રીન"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"ટેબ્લેટ માહિતી"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"ફોન માહિતી"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB સ્ટોરેજ"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD કાર્ડ"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"પ્રોક્સી સેટિંગ"</string>
@@ -1121,11 +1051,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"રોમિંગ પસંદગી"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"વાઇ-ફાઇ"</item>
     <item msgid="8622872038388687383">"મોબાઇલ"</item>
     <item msgid="3027927219952052398">"ફક્ત વાઇ-ફાઇ"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"વાઇ-ફાઇ"</item>
     <item msgid="7566603075659706590">"મોબાઇલ"</item>
@@ -1138,6 +1073,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"કટોકટીનું સરનામું"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"જ્યારે તમે વાઇ-ફાઇનો ઉપયોગ કરીને કોઈ કટોકટીનો કૉલ કરો તો તેનો તમારા સ્થાન તરીકે ઉપયોગ કરવામાં આવશે"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"ખાનગી DNS સુવિધા વિશે "<annotation id="url">"વધુ જાણો"</annotation></string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"ચાલુ"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"કૅરિઅર દ્વારા મેનેજ કરવામાં આવતી સેટિંગ"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"વાઇ-ફાઇ કૉલિંગ સક્રિય કરો"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"વાઇ-ફાઇ કૉલિંગ ચાલુ કરો"</string>
@@ -3659,6 +3595,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"ખલેલ પાડશો નહીં દ્વારા શાંત કરેલ નોટિફિકેશનોને સ્ક્રીન ચાલુ કરવા દો"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"સૂચનાઓની સેટિંગ્સ"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"ઓકે"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"બંધ કરો"</string>
     <string name="device_feedback" msgid="5351614458411688608">"આ ઉપકરણ વિશે પ્રતિસાદ મોકલો"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"વ્યવસ્થાપક પિન દાખલ કરો"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"ચાલુ"</string>
@@ -4419,6 +4356,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"ઍપની સુસંગતતામાં ફેરફારો"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"ઍપ સુસંગતતાના ફેરફારો ટૉગલ કરો"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"ડિફૉલ્ટ રીતે ચાલુ કરેલા ફેરફારો"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"ડિફૉલ્ટ રીતે બંધ કરેલા ફેરફારો"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"આ ફોન પર સેટિંગ સમર્થિત નથી"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"આ ટૅબ્લેટ પર સેટિંગ સમર્થિત નથી"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"આ ઉપકરણ પર સેટિંગ સમર્થિત નથી"</string>

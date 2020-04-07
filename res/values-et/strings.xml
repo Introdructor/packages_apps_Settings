@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Lubage esmalt arendaja valikud."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Traadita ühendus ja võrgud"</string>
     <string name="header_category_system" msgid="1665516346845259058">"Süsteem"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"Luba andmesideühendus"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"Keela andmesideühendus"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE on ette valmistatud"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"Videokõne ettevalmistamine"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"WiFi-kõne ettevalmistamine"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/Presence\'i ettevalmistatud"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"CBRS-i andmed"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"Luba DSDS"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"Kas soovite seadme taaskäivitada?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"Selle seade muutmiseks peate seadme taaskäivitama."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"Taaskäivita"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"Tühista"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"Mobiiliraadio toide"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"SIM-kaardi aadressiraamatu kuvamine"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"Kuva määratud valimisnumbrid"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"Kuva teenuse valimise numbrid"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"IMS-teenuse olek"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"IMS-i olek"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"Registreeritud"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"Ei ole registreeritud"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"Saadaval"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"Pole saadaval"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS-i registreerimine: <xliff:g id="STATUS">%1$s</xliff:g>\nHäälvestlus LTE kaudu: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nHäälvestlus WiFi kaudu: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nVideokõne: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT-liides: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"Teenus toimib"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Teenus ei toimi"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Ainult hädaabikõned"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Raadio on väljas"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Rändlus"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Rändlus puudub"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Tegevusetu"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Helisemine"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"Kõne on pooleli"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"Ühendus katkestatud"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"Ühendamine"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"Ühendatud"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Peatatud"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Teadmata"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"pkts"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"baiti"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"Lahuta USB-mäluseade"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"SD-kaardi lahutamine"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Kustuta USB-mäluseade"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"Sisestatud port on kehtetu."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"Brauser kasutab HTTP-puhverserverit, kuid muud rakendused ei pruugi seda kasutada."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"PAC URL: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"Praegune alam-ID:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"Andmete vaike-SIM-kaardi alam-ID:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"DL ribalaius (kbit/s):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"UL ribalaius (kbit/s):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"Kärje asukohateave (tugi on katkestatud):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"LTE füüsilise kanali konfiguratsioon:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"Kärje teabe värskendamissagedus:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"Kõik kärje mõõteandmed:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"Andmesideteenus:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"Rändlus:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"Kõne ümbersuunamine:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"PPP lähtestuste arv alates käivitumisest:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"Praegune võrk:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"Vastuvõetud andmed:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"Häälteenus:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"Signaali tugevus:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"Häälkõne olek:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"Saadetud andmed:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"Ootel sõnum:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"Telefoninumber:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"Raadioriba valimine"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"Häälvõrgu tüüp:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"Andmesidevõrgu tüüp:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"Telefoni registri valimine"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"Eelistatud võrgutüübi määramine:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"Pingi hosti nimi (www.google.com) IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"Pingi hosti nimi (www.google.com) IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"HTTP-kliendi test:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"Pingimistesti käitamine"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"Värskenda"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"Värskenda"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"DNS-i kontrolli sisse- või väljalülitamine"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"OEM-i teave/seaded"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"Raadio ribarežiimi määramine"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"Ribaloendi laadimine …"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"Määra"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"Ebaõnnestus"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"Õnnestunud"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"Muudatused jõustuvad siis, kui USB-kaabel on uuesti ühendatud."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"USB massmälu lubamine"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"Baite kokku:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"Tegevuse valimine"</string>
     <string name="device_info_label" msgid="2935198177248803716">"Seadme teave"</string>
     <string name="display_label" msgid="3056320781191343221">"Ekraan"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"Teave tahvelarvuti kohta"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"Telefoniteave"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB-mäluseade"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD-kaart"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Puhverserveri seaded"</string>
@@ -1121,11 +1051,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Rändluse eelistus"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"WiFi"</item>
     <item msgid="8622872038388687383">"Mobiilne andmeside"</item>
     <item msgid="3027927219952052398">"Ainult WiFi"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"WiFi"</item>
     <item msgid="7566603075659706590">"Mobiilne andmeside"</item>
@@ -1138,6 +1073,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"Hädaolukorra aadress"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Seda kasutatakse WiFi kaudu hädaabikõne tegemisel teie asukohana"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Lisateave"</annotation>" privaatse DNS-i funktsioonide kohta"</string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"Sees"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"Seadet haldab operaator"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Aktiveerige WiFi-kõned"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"Lülitage WiFi-kõned sisse"</string>
@@ -1839,7 +1775,7 @@
     <string name="lock_settings_profile_unified_summary" msgid="777095092175037385">"Sama mis seadme ekraanilukk"</string>
     <string name="manageapplications_settings_title" msgid="9198876415524237657">"Halda rakendusi"</string>
     <string name="manageapplications_settings_summary" msgid="848586372489062357">"Installitud rakenduste haldamine ja eemaldamine"</string>
-    <string name="applications_settings" msgid="1941993743933425622">"Rakenduste teave"</string>
+    <string name="applications_settings" msgid="1941993743933425622">"Rakenduse teave"</string>
     <string name="applications_settings_summary" msgid="8206066893744768531">"Rakenduste haldamine, kiirkäivituse otseteede seadistamine"</string>
     <string name="applications_settings_header" msgid="3154670675856048015">"Rakenduse seaded"</string>
     <string name="install_applications" msgid="3921609656584369901">"Tundmatud allikad"</string>
@@ -1851,7 +1787,7 @@
     <string name="install_all_warning" product="device" msgid="2348262609815354500">"Teie seade ja isiklikud andmed on tundmatute rakenduste rünnakute suhtes haavatavamad. Sellest allikast rakendusi installides nõustute, et vastutate seadme kõigi kahjude ja andmekao eest, mis võivad selliste rakenduste kasutamisest tuleneda."</string>
     <string name="advanced_settings" msgid="2368905204839169094">"Täpsemad seaded"</string>
     <string name="advanced_settings_summary" msgid="1823765348195530035">"Luba rohkem seadete valikuid"</string>
-    <string name="application_info_label" msgid="1015706497694165866">"Rakenduste teave"</string>
+    <string name="application_info_label" msgid="1015706497694165866">"Rakenduse teave"</string>
     <string name="storage_label" msgid="2522307545547515733">"Mäluruum"</string>
     <string name="auto_launch_label" msgid="4069860409309364872">"Avamine vaikimisi"</string>
     <string name="auto_launch_label_generic" msgid="5033137408273064599">"Vaikeseaded"</string>
@@ -2465,7 +2401,7 @@
     <string name="usage_type_computed_power" msgid="5191902025833668752">"Arvutatud energiatarbimine"</string>
     <string name="usage_type_actual_power" msgid="1221358930299037926">"Tuvastatud energiatarbimine"</string>
     <string name="battery_action_stop" msgid="6998228610098034316">"Sunni peatuma"</string>
-    <string name="battery_action_app_details" msgid="7201369216798227707">"Rakenduste teave"</string>
+    <string name="battery_action_app_details" msgid="7201369216798227707">"Rakenduse teave"</string>
     <string name="battery_action_app_settings" msgid="2437124469335488464">"Rakenduse seaded"</string>
     <string name="battery_action_display" msgid="6515712081248863749">"Ekraani seaded"</string>
     <string name="battery_action_wifi" msgid="1829212604573932607">"WiFi-seaded"</string>
@@ -2727,7 +2663,7 @@
     <string name="data_usage_app_summary_title" msgid="4933742247928064178">"Mobiilne andmeside, WiFi"</string>
     <string name="data_usage_accounting" msgid="6832015632699116754">"Operaatori andmemahuarvestus võib erineda seadme omast"</string>
     <string name="data_usage_app" msgid="6367974637783240699">"Rakenduse kasutamine"</string>
-    <string name="data_usage_app_info_label" msgid="3542220416056122841">"RAKENDUSTE TEAVE"</string>
+    <string name="data_usage_app_info_label" msgid="3542220416056122841">"RAKENDUSE TEAVE"</string>
     <string name="data_usage_cellular_data" msgid="1917226172511825849">"Mobiilne andmeside"</string>
     <string name="data_usage_data_limit" msgid="1120291692444009289">"Andmemahupiirangu määramine"</string>
     <string name="data_usage_cycle" msgid="6875568429140150029">"Andmete kasutamistsükkel"</string>
@@ -3659,6 +3595,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"Luba märguannetel, mille funktsioon Mitte segada on vaigistanud, ekraan sisse lülitada"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"Märguandeseaded"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"OK"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"Sule"</string>
     <string name="device_feedback" msgid="5351614458411688608">"Seadme kohta tagasiside saatmine"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"Sisestage administraatori PIN-kood"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"Sees"</string>
@@ -4419,6 +4356,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"Rakenduste ühilduvuse muudatused"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Rakenduse ühilduvuse muudatuste lüliti"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Vaikimisi lubatud rakenduste muudatused"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Vaikimisi keelatud rakenduste muudatused"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Seadet selles telefonis ei toetata"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Seadet selles tahvelarvutis ei toetata"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Seadet selles seadmes ei toetata"</string>

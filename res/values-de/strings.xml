@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Bitte aktiviere die Entwickleroptionen zuerst."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Drahtlos &amp; Netzwerke"</string>
     <string name="header_category_system" msgid="1665516346845259058">"System"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"Datenverbindung aktivieren"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"Datenverbindung deaktivieren"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE-Kennzeichnung"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"Videoanrufe eingerichtet"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"WLAN-Anrufe eingerichtet"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/Präsenz bereitgestellt"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"CBRS-Daten"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"DSDS aktivieren"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"Gerät neu starten?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"Die Änderung erfordert einen Neustart des Geräts."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"Neu starten"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"Abbrechen"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"Mobilfunkstärke"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"SIM-Adressbuch anzeigen"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"Zugelassene Rufnummern anzeigen"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"Servicerufnummern anzeigen"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"IMS-Dienststatus"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"IMS-Status"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"Registriert"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"Nicht registriert"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"Verfügbar"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"Nicht verfügbar"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS-Registrierung: <xliff:g id="STATUS">%1$s</xliff:g>\nVoice-over-LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nVoice-over-WLAN: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nVideoanrufe: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT-Oberfläche: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"In Betrieb"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Außer Betrieb"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Nur Notrufe"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Funkschnittstelle deaktiviert"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Roaming"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Kein Roaming"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Ruhezustand"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Klingelton"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"Anruf wird getätigt"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"Nicht verbunden"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"Verbindung wird hergestellt"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"Verbunden"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Angehalten"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Unbekannt"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"Pakete"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"Bytes"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"ASU"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"USB-Speicher trennen"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"SD-Karte entnehmen"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"USB-Speicher löschen"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"Der eingegebene Port ist ungültig."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"Der HTTP-Proxy wird vom Browser verwendet, eventuell aber nicht von anderen Apps."</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"PAC-URL: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"Aktuelle Unter-ID:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"Unter-ID der standardmäßigen Daten-SIM:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"DL-Bandbreite (kbit/s):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"UL-Bandbreite (kbit/s):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"Standortinformationen des Mobiltelefons (eingestellt):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"Konfiguration des physischen LTE-Kanals:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"Aktualisierungsrate der Mobiltelefoninformationen:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"Alle Informationen zu Mobiltelefonmesswerten:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"Datendienst:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"Roaming:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"Rufumleitung:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"Anzahl der PPP-Zurücksetzungen seit dem Start:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"Aktuelles Netzwerk:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"Empfangene Daten:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"Sprachdienst:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"Signalstärke:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"Anrufstatus:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"Gesendete Daten:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"Nachricht liegt vor:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"Telefonnummer:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"Frequenzbereich auswählen"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"Sprachnetzwerktyp:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"Datennetzwerktyp:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"Smartphone-Index auswählen"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"Bevorzugten Netzwerktyp festlegen:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"Hostnamen (www.google.com) IPv4 pingen:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"Hostnamen (www.google.com) IPv6 pingen:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"HTTP-Client-Test:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"Pingtest ausführen"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"Aktualisierung"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"Aktualisieren"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"DNS-Überprüfung ein-/ausschalten"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"OEM-spezifische Infos/Einstellungen"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"Frequenzbereichmodus festlegen"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"Bandliste wird geladen…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"Festlegen"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"Fehlgeschlagen"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"Erfolgreich"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"Die Änderungen werden nach dem erneuten Anschließen des USB-Kabels übernommen."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"USB-Massenspeicher aktivieren"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"Bytes insgesamt:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"Aktivität auswählen"</string>
     <string name="device_info_label" msgid="2935198177248803716">"Geräteinfo"</string>
     <string name="display_label" msgid="3056320781191343221">"Display"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"Tablet-Informationen"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"Über das Telefon"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB-Speicher"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD-Karte"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Proxy-Einstellungen"</string>
@@ -1122,11 +1052,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Roaming-Präferenz"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"WLAN"</item>
     <item msgid="8622872038388687383">"Mobil"</item>
     <item msgid="3027927219952052398">"Nur WLAN"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"WLAN"</item>
     <item msgid="7566603075659706590">"Mobil"</item>
@@ -1139,6 +1074,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"Notfalladresse"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Wird als dein Standort verwendet, wenn du einen Notruf über WLAN tätigst"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Weitere Informationen zu privaten DNS-Funktionen"</annotation></string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"An"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"Einstellung wird vom Mobilfunkanbieter verwaltet"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"WLAN-Telefonie aktivieren"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"WLAN-Telefonie verwenden"</string>
@@ -3660,6 +3596,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"Bei Benachrichtigungen, die durch \"Bitte nicht stören\" stummgeschaltet wurden, Bildschirm aktivieren"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"Benachrichtigungseinstellungen"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"Ok"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"Schließen"</string>
     <string name="device_feedback" msgid="5351614458411688608">"Feedback zu diesem Gerät senden"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"Administrator-PIN eingeben"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"An"</string>
@@ -4420,6 +4357,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"Änderungen der Kompatibilität von Apps"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Änderungen bei der Kompatibilität von Apps festlegen"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Standardmäßig aktivierte Änderungen"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Standardmäßig deaktivierte Änderungen"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Die Einstellung wird auf diesem Smartphone nicht unterstützt"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Die Einstellung wird auf diesem Tablet nicht unterstützt"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Die Einstellung wird auf diesem Gerät nicht unterstützt"</string>

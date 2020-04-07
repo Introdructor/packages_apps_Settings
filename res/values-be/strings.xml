@@ -33,49 +33,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Спачатку ўключыце параметры распрацоўшчыка."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Бесправадныя сеткі"</string>
     <string name="header_category_system" msgid="1665516346845259058">"Сістэма"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"Уключыць злучэнне для перадачы даных"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"Адключыць перадачу даных"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE уключана"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"Відэавыклікі забяспечаны"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"Wi-Fi-тэлефанія забяспечана"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/Presence уключана"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"Даныя CBRS"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"Уключыць DSDS"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"Перазапусціць прыладу?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"Каб змяніць гэту наладу, трэба перазапусціць прыладу."</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"Перазапусціць"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"Скасаваць"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"Магутнасць радыёсігналу"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"Прагляд адраснай кнігі на SIM-карце"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"Прагляд фіксаваных нумароў"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"Паглядзець сэрвісныя нумары набору"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"Стан сэрвісу IMS"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"Стан IMS"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"Зарэгістраваны"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"Не зарэгістраваны"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"Даступны"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"Недаступны"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"Рэгістрацыя IMS: <xliff:g id="STATUS">%1$s</xliff:g>\nГолас па LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nГолас па WiFi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nВідэавыклік: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nІнтэрфейс UT: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"Працуе"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Не працуе"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Толькі экстранныя выклікі"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Перадатчык выключаны"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Роўмінг"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Не ў роўмінгу"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Бяздзейнасць"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Званіць"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"Ідзе выклік…"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"Адключана"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"Падключэнне"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"Падключаны"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Прыпынена"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Невядома"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"пак."</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"байтаў"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"дБм"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"Адключыць USB-назапашвальнiк"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"Адключыць SD-карту"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Ачысціць USB-назапашвальнiк"</string>
@@ -211,46 +179,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"Вы ўвялі несапраўднае імя порта."</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"Проксі HTTP выкарыстоўваецца браўзэрам, але ён не можа выкарыстоўвацца іншымі прыкладаннямi"</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"URL аўтаканфіг. проксі: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"Дадатковы ідэнтыфікатар:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"Дадатковы ідэнтыфікатар даных стандартнай SIM:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"Паласа прапускання спампоўкі (кбіт/с):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"Паласа прапускання запампоўкі (кбіт/с):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"Інфармацыя пра месцазнаходжанне сотавай ячэйкі (састарэлая):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"Канфігурацыя фізічнага канала LTE:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"Частата абнаўлення даных сотавай ячэйкі:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"Усе даныя вымярэнняў сотавай ячэйкі:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"Служба перадачы даных:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"Роўмінг:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"Перанакіраванне выкліку:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"Колькасць PPP, скінутых з моманту загрузкі:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"Бягучая сетка:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"Атрыманыя даныя:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"Галасавая служба:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"Магутнасць сігналу:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"Статус галасавога выкліку:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"Перададзеныя даныя:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"Паведамленне ў рэжыме чакання:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"Нумар тэлефона:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"Выберыце радыёдыяпазон"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"Тып галасавой сеткі:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"Тып сеткі перадачы даных:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"Выберыце тэлефонны код"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"Задаць прыярытэтны тып сеткі:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"Каманда ping для вузла(www.google.com) IPv4:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"Каманда ping для вузла(www.google.com) IPv6:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"Тэст HTTP-кліента:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"Выканаць праверку ping"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"Абнавіць"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"Абнавіць"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"Пераключыць праверку DNS"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"Інфармацыя/налады для пастаўшчыка"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"Задаць рэжым радыёдыяпазону"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"Загрузка спіса дыяпазонаў…"</string>
-    <string name="band_mode_set" msgid="494968379352406359">"Задаць"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"Няўдала"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"Паспяхова"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"Змены ўступяць у сілу, калі USB-кабель зноў будзе падлучаны."</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"Уключыць USB-накапляльнік"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"Усяго байт:"</string>
@@ -291,8 +223,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"Выберыце дзеянне"</string>
     <string name="device_info_label" msgid="2935198177248803716">"Звесткі аб прыладзе"</string>
     <string name="display_label" msgid="3056320781191343221">"Экран"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"Інфармацыя аб планшэце"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"Звесткі аб тэлефоне"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB-назапашвальнік"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD-карта"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Налады проксі"</string>
@@ -1159,11 +1089,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Параметры роўмінгу"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
     <item msgid="8622872038388687383">"Мабільны інтэрнэт"</item>
     <item msgid="3027927219952052398">"Толькі Wi-Fi"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"Wi-Fi"</item>
     <item msgid="7566603075659706590">"Мабільны інтэрнэт"</item>
@@ -1176,6 +1111,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"Экстранны адрас"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Выкарыстоўваецца як ваша месцазнаходжанне, калі вы робіце экстранны выклік праз Wi‑Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Дадатковыя звесткі"</annotation>" аб функцыях Прыватнай DNS"</string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"Уключана"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"Наладамі кіруе аператар"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Актываваць Wi-Fi-тэлефанію"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"Уключыць Wi-Fi-тэлефанію"</string>
@@ -3769,6 +3705,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"Уключаць экран для апавяшчэнняў, адключаных у рэжыме \"Не турбаваць\""</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"Налады апавяшчэнняў"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"ОК"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"Закрыць"</string>
     <string name="device_feedback" msgid="5351614458411688608">"Адправіць водгук пра гэту прыладу"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"Увядзіце PIN-код адміністратара"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"Уключана"</string>
@@ -4579,6 +4516,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"Змяненні ў сумяшчальнасці праграм"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Пераключыць на змяненні ў сумяшчальнасці праграм"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Стандартныя ўключаныя змяненні"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Стандартныя адключаныя змяненні"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Налада не падтрымліваецца на гэтым тэлефоне"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Налада не падтрымліваецца на гэтым планшэце"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Налада не падтрымліваецца на гэтай прыладзе"</string>

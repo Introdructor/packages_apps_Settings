@@ -31,49 +31,17 @@
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"প্রথমে ডেভেলপারের বিকল্পগুলি সক্রিয় করুন।"</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"ওয়্যারলেস ও নেটওয়ার্ক"</string>
     <string name="header_category_system" msgid="1665516346845259058">"সিস্টেম"</string>
-    <string name="radio_info_data_connection_enable" msgid="7500945447906187613">"ডেটা কানেকশন সক্রিয় আছে"</string>
-    <string name="radio_info_data_connection_disable" msgid="8604841967700865652">"ডেটা কানেকশন নিষ্ক্রিয় আছে"</string>
-    <string name="volte_provisioned_switch_string" msgid="8934098342370970223">"VoLTE প্রস্তুত"</string>
-    <string name="vt_provisioned_switch_string" msgid="4355464240965212513">"ভিডিও কলিং এর ব্যবস্থা আছে"</string>
-    <string name="wfc_provisioned_switch_string" msgid="4422170900830707226">"ওয়াই ফাই কলিং এর ব্যবস্থা আছে"</string>
-    <string name="eab_provisioned_switch_string" msgid="7587292685146545260">"EAB/উপস্থিতির বন্দোবস্ত"</string>
-    <string name="cbrs_data_switch_string" msgid="2896574015153905035">"Cbrs ডেটা"</string>
-    <string name="dsds_switch_string" msgid="4907365444013155133">"DSDS চালু করুন"</string>
-    <string name="dsds_dialog_title" msgid="3668611910354782795">"ডিভাইস রিস্টার্ট করতে চান?"</string>
-    <string name="dsds_dialog_message" msgid="3639495712738363729">"এই সেটিং পরিবর্তন করতে আপনার ডিভাইস রিস্টার্ট করতে হবে।"</string>
-    <string name="dsds_dialog_confirm" msgid="5067018824061453057">"রিস্টার্ট করুন"</string>
-    <string name="dsds_dialog_cancel" msgid="5219602208973199952">"বাতিল করুন"</string>
-    <string name="radio_info_radio_power" msgid="4369440062342571382">"মোবাইল রেডিওর গুণমান"</string>
-    <string name="radioInfo_menu_viewADN" msgid="6868137648019216349">"সিম ঠিকানা বই দেখুন"</string>
-    <string name="radioInfo_menu_viewFDN" msgid="8653892983154225208">"স্থায়ী ডায়াল নম্বরগুলি দেখুন"</string>
-    <string name="radioInfo_menu_viewSDN" msgid="3924796159215442726">"সার্ভিস ডায়াল নম্বরগুলি দেখুন"</string>
-    <string name="radioInfo_menu_getIMS" msgid="6757606210635403027">"IMS পরিষেবার স্থিতি"</string>
-    <string name="radio_info_ims_reg_status_title" msgid="8795239519507698646">"IMS স্থিতি"</string>
-    <string name="radio_info_ims_reg_status_registered" msgid="4879423105696709569">"নিবন্ধিত হয়েছে"</string>
-    <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"নিবন্ধিত নয়"</string>
-    <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"উপলব্ধ"</string>
-    <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"অনুপলব্ধ"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS নিবন্ধীকরণ: <xliff:g id="STATUS">%1$s</xliff:g>\nভয়েস ওভার LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nভয়েস ওভার ওয়াই ফাই: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nভিডিও কলিং: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT ইন্টারফেস: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"পরিষেবায়"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"পরিষেবার বাইরে"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"শুধুমাত্র জরুরি কল"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"রেডিও বন্ধ আছে"</string>
     <string name="radioInfo_roaming_in" msgid="8892550453644088692">"রোমিং"</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"রোমিংয়ে নয়"</string>
-    <string name="radioInfo_phone_idle" msgid="5310342873119295351">"নিষ্ক্রিয়"</string>
-    <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"রিং হচ্ছে"</string>
-    <string name="radioInfo_phone_offhook" msgid="297799336906183726">"কল করা হচ্ছে"</string>
     <string name="radioInfo_data_disconnected" msgid="362604130117666924">"ডিসকানেক্ট করা হয়েছে"</string>
     <string name="radioInfo_data_connecting" msgid="7280819598028917888">"কানেক্ট হচ্ছে"</string>
     <string name="radioInfo_data_connected" msgid="8816467971633020141">"কানেক্ট হয়েছে"</string>
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"স্থগিত করা হয়েছে"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"অজানা"</string>
-    <string name="radioInfo_display_packets" msgid="8666551670406026640">"pkts"</string>
-    <string name="radioInfo_display_bytes" msgid="5176608882540495361">"বাইট"</string>
-    <string name="radioInfo_display_dbm" msgid="4007347116017337654">"dBm"</string>
-    <string name="radioInfo_display_asu" msgid="7624383058472383864">"asu"</string>
-    <string name="radioInfo_lac" msgid="903689355872809325">"LAC"</string>
-    <string name="radioInfo_cid" msgid="8310177269682108070">"CID"</string>
     <string name="sdcard_unmount" product="nosdcard" msgid="1816306320988638382">"USB স্টোরেজ আনমাউন্ট করুন"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"SD কার্ড আনমাউন্ট করুন"</string>
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"USB স্টোরেজ মুছে ফেলুন"</string>
@@ -209,46 +177,10 @@
     <string name="proxy_error_invalid_port" msgid="2830054691770209166">"আপনার টাইপ করা পোর্টটি বৈধ নয।"</string>
     <string name="proxy_warning_limited_support" msgid="3277104160797351942">"HTTP প্রক্সি ব্রাউজার দ্বারা ব্যবহৃত হয় কিন্তু অন্য অ্যাপ্লিকেশানগুলির দ্বারা ব্যবহৃত না হতেও পারে৷"</string>
     <string name="proxy_url_title" msgid="3502625766036404073">"PAC URL: "</string>
-    <string name="radio_info_subid" msgid="7327800379827284836">"বর্তমান SUBID:"</string>
-    <string name="radio_info_dds" msgid="4170740686898792195">"ডিফল্ট ডেটা সিমের SUBID:"</string>
-    <string name="radio_info_dl_kbps" msgid="2881272681619183358">"ডিএল ব্যান্ডউইথ (কেবিপিএস):"</string>
-    <string name="radio_info_ul_kbps" msgid="7803946965237104599">"ইউএল ব্যান্ডউইথ (কেবিপিএস):"</string>
-    <string name="radio_info_signal_location_label" msgid="1736165284575303917">"সেল লোকেশন তথ্য (থামানো হয়েছে):"</string>
-    <string name="radio_info_phy_chan_config" msgid="6097618338120723281">"এলটিই ফিজিক্যাল চ্যানেল কনফিগারেশন:"</string>
-    <string name="radio_info_cell_info_refresh_rate" msgid="241009784379188617">"সেল তথ্যে রিফ্রেশ রেট:"</string>
-    <string name="radio_info_cellinfo_label" msgid="4284529077586993923">"সমস্ত সেল পরিমাপ তথ্য:"</string>
-    <string name="radio_info_gprs_service_label" msgid="3733917071929608133">"ডেটা পরিষেবা:"</string>
-    <string name="radio_info_roaming_label" msgid="8376970228207513419">"রোমিং:"</string>
-    <string name="radio_info_imei_label" msgid="8768028106987976248">"IMEI:"</string>
-    <string name="radio_info_call_redirect_label" msgid="6964847242415886703">"কল পুনঃনির্দেশ:"</string>
-    <string name="radio_info_ppp_resets_label" msgid="1714896740900243345">"বুট করার পর থেকে এই পরিমাণ PPP পুনরায় সেট করা হয়েছে:"</string>
-    <string name="radio_info_current_network_label" msgid="686668370205363838">"বর্তমান নেটওয়ার্ক:"</string>
-    <string name="radio_info_ppp_received_label" msgid="1290363531874292574">"ডেট প্রাপ্ত হয়েছে:"</string>
-    <string name="radio_info_gsm_service_label" msgid="247102877123202571">"ভয়েস পরিষেবা:"</string>
-    <string name="radio_info_signal_strength_label" msgid="6135020763466924127">"সিগন্যাল ক্ষমতা:"</string>
-    <string name="radio_info_call_status_label" msgid="961125819952596454">"ভয়েস কলের স্থিতি:"</string>
-    <string name="radio_info_ppp_sent_label" msgid="1241621472160491978">"ডেটা পাঠানো হয়েছে:"</string>
-    <string name="radio_info_message_waiting_label" msgid="3956809623143614299">"মেসেজ অপেক্ষ:"</string>
-    <string name="radio_info_phone_number_label" msgid="574486595407781377">"ফোন নম্বর:"</string>
-    <string name="radio_info_band_mode_label" msgid="3476369593146703531">"রেডিও ব্যান্ড বেছে নিন"</string>
-    <string name="radio_info_voice_network_type_label" msgid="5258745525673807882">"ভয়েস নেটওয়ার্কের প্রকার:"</string>
-    <string name="radio_info_data_network_type_label" msgid="3047409597161924725">"ডেটা নেটওয়ার্কের প্রকার:"</string>
-    <string name="phone_index_label" msgid="4363452876038885914">"ফোনের ইন্ডেক্স বেছে নিন"</string>
-    <string name="radio_info_set_perferred_label" msgid="8401641174699255350">"পছন্দের নেটওয়ার্ক সেট করুন:"</string>
     <string name="radio_info_ping_hostname_v4" msgid="4790577760885127088">"হোস্টনামে(www.google.com) IPv4 পিং করুন:"</string>
     <string name="radio_info_ping_hostname_v6" msgid="8327436534663560713">"হোস্টনামে(www.google.com) IPv6 পিং করুন:"</string>
     <string name="radio_info_http_client_test" msgid="5673975677271544085">"HTTP ক্লায়েন্ট পরীক্ষা:"</string>
     <string name="ping_test_label" msgid="265427033290391845">"পিং পরীক্ষা চালান"</string>
-    <string name="radio_info_smsc_label" msgid="8791850754231448677">"SMSC:"</string>
-    <string name="radio_info_smsc_update_label" msgid="5188170141348184882">"আপডেট করুন"</string>
-    <string name="radio_info_smsc_refresh_label" msgid="8649680071647954564">"রিফ্রেশ করুন"</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8385222188363594645">"DNS চেক টগল করুন"</string>
-    <string name="oem_radio_info_label" msgid="4435487925582197844">"OEM-নির্দিষ্ট তথ্য/সেটিংস"</string>
-    <string name="band_mode_title" msgid="6203249435902326774">"রেডিও ব্যান্ড মোড সেট করুন"</string>
-    <string name="band_mode_loading" msgid="5858249248306279569">"ব্যান্ড তালিকা লোড হচ্ছে..."</string>
-    <string name="band_mode_set" msgid="494968379352406359">"সেট"</string>
-    <string name="band_mode_failed" msgid="7171137302312882111">"অসফল"</string>
-    <string name="band_mode_succeeded" msgid="4987605828933549780">"সফল"</string>
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"USB কেবল আবার কানেক্ট করা হলে পরিবর্তনগুলি কার্যকরী হবে।"</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"USB বিপুল স্টোরেজ সক্রিয় করুন"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"মোট বাইট:"</string>
@@ -287,8 +219,6 @@
     <string name="activity_picker_label" msgid="351250401590691126">"অ্যাক্টিভিটি বেছে নিন"</string>
     <string name="device_info_label" msgid="2935198177248803716">"ডিভাইস তথ্য"</string>
     <string name="display_label" msgid="3056320781191343221">"স্ক্রিন"</string>
-    <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"ট্যাবলেট তথ্য"</string>
-    <string name="phone_info_label" product="default" msgid="1824896269282225602">"ফোন তথ্য"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB স্টোরেজ"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD কার্ড"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"প্রক্সি সেটিংস"</string>
@@ -1121,11 +1051,16 @@
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"পছন্দের রোমিং"</string>
+    <!-- no translation found for wifi_calling_mode_choices:0 (2164020479809255929) -->
+    <!-- no translation found for wifi_calling_mode_choices:1 (423878777436391740) -->
+    <!-- no translation found for wifi_calling_mode_choices:2 (7573173298718253226) -->
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"ওয়াই-ফাই"</item>
     <item msgid="8622872038388687383">"মোবাইল"</item>
     <item msgid="3027927219952052398">"শুধুমাত্র ওয়াই-ফাই"</item>
   </string-array>
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:0 (5263525361527590551) -->
+    <!-- no translation found for wifi_calling_mode_choices_without_wifi_only:1 (8137615814840433209) -->
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item msgid="588620799769664461">"ওয়াই-ফাই"</item>
     <item msgid="7566603075659706590">"মোবাইল"</item>
@@ -1138,6 +1073,7 @@
     <string name="emergency_address_title" msgid="3490633500025717573">"জরুরি ঠিকানা"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"ওয়াই-ফাই নেটওয়ার্ক ব্যবহার করে জরুরি কল করার সময় আপনার লোকেশন হিসেবে ব্যবহার করা হয়"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"ব্যক্তিগত ডিএনএস বৈশিষ্ট্যের বিষয়ে "<annotation id="url">"আরও জানুন"</annotation></string>
+    <string name="private_dns_mode_on" msgid="8878679071975375696">"চালু আছে"</string>
     <string name="wifi_calling_pref_managed_by_carrier" msgid="129524064888622179">"পরিষেবা প্রদানকারী দ্বারা সেটিং ম্যানেজ করা হয়"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"ওয়াই-ফাই দিয়ে কল করার সুবিধা অ্যাক্টিভেট করুন"</string>
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"ওয়াই-ফাই দিয়ে কল করার সুবিধা চালু করুন"</string>
@@ -3659,6 +3595,7 @@
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"\'বিরক্ত করবে না\' দ্বারা নীরব করা বিজ্ঞপ্তিগুলিকে স্ক্রিন চালু করতে দিন"</string>
     <string name="notification_app_settings_button" msgid="4692549882609342128">"বিজ্ঞপ্তির সেটিংস"</string>
     <string name="suggestion_button_text" msgid="4370673818678692873">"ঠিক আছে"</string>
+    <string name="suggestion_button_close" msgid="6865170855573283759">"বন্ধ করুন"</string>
     <string name="device_feedback" msgid="5351614458411688608">"এই ডিভাইসের সম্পর্কে মতামত পাঠান"</string>
     <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"প্রশাসকের পিন লিখুন"</string>
     <string name="switch_on_text" msgid="5664542327776075105">"চালু করুন"</string>
@@ -4419,6 +4356,10 @@
     <!-- no translation found for game_driver_app_preference_values:0 (2432393448266016546) -->
     <!-- no translation found for game_driver_app_preference_values:1 (398843973192851256) -->
     <!-- no translation found for game_driver_app_preference_values:2 (8840726898745627072) -->
+    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"ডিভাইসে অ্যাপ মানানসই করা সম্পর্কিত পরিবর্তন"</string>
+    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"অ্যাপ মানানসই করা সম্পর্কিত পরিবর্তন টগল করুন"</string>
+    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"ডিফল্ট হিসেবে চালু করা পরিবর্তন"</string>
+    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"ডিফল্ট হিসেবে বন্ধ করে দেওয়া পরিবর্তন"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"এই ফোনে সেটিং সমর্থিত নয়"</string>
     <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"এই ট্যাবলেটে সেটিং সমর্থিত নয়"</string>
     <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"এই ডিভাইসে সেটিং সমর্থিত নয়"</string>
