@@ -73,6 +73,7 @@ import java.util.Collections;
 import java.util.List;
 
 import com.rebellion.support.preferences.SystemSettingMasterSwitchPreference;
+import com.rebellion.support.preferences.SystemSettingSwitchPreference;
 /**
  * Displays a list of apps and subsystems that consume power, ordered by how much power was
  * consumed since the last time it was unplugged.
@@ -98,6 +99,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     private SystemSettingMasterSwitchPreference mSmartCharging;
 
+    private static final String KEY_ULTRA_POWER_SAVING = "ultra_power_save";
+
+    private SystemSettingSwitchPreference mUltraPower;
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -265,6 +269,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+        updateUltraPowerPrefs();
+    }
+
+    private void updateUltraPowerPrefs() {
+        mUltraPower = (SystemSettingSwitchPreference) findPreference(KEY_ULTRA_POWER_SAVING);
+        mUltraPower.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.ULTRA_POWER_SAVE, 1) == 1));
+        mUltraPower.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -273,6 +285,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SMART_CHARGING, value ? 1 : 0);
+            return true;
+        } else if (preference == mUltraPower) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ULTRA_POWER_SAVE, value ? 1 : 0);
             return true;
 		}
         return false;

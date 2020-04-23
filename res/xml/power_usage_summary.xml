@@ -59,6 +59,12 @@
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
 
+    <com.rebellion.support.preferences.SystemSettingSwitchPreference
+        android:key="ultra_power_save"
+        android:defaultValue="true"
+        android:title="@string/ultra_power_save_title"
+        android:summary="@string/ultra_power_save_summary" />
+
     <Preference
         android:key="battery_info"
         android:title="@string/battery_info_title"
