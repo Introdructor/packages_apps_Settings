@@ -212,6 +212,11 @@
     <string name="prev_song">Previous song</string>
 
     <!-- Long swipe gestures -->
+    <string name="swipe_long_act">Long swipe actions</string>
+    <string name="swipe_l_act">L swipe actions</string>
+    <string name="swipe_long_timeout">Timeout</string>
+    <string name="bar_pill_size">Pill size</string>
+    <string name="swipe_extended">Extended swipe</string>
     <string name="swipe_gestures_nav">Long Swipe gestures</string>
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
