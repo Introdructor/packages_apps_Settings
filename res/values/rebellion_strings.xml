@@ -358,6 +358,7 @@
     <string name="rebellion_version">Rebellion OS version</string>
     <string name="build_date">Rebellion Build Date</string>
     <string name="about_device_name">Rebellion Device</string>
+    <string name="the_rebeller">The Rebeller</string>
 
 </resources>
 
