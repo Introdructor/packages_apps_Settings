@@ -17,45 +17,30 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.SystemProperties;
-import android.text.TextUtils;
-import android.util.Log;
-
-import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class TheRebellerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "TheRebellerCtrl";
-    private static final String BUILD_TYPE_PROP = "ro.rebellion.build_type";
+    private static final String TAG = "TherebellerCtrl";
 
-    private final PackageManager mPackageManager;
-
-    private String mTheRebeller;
+    private static final String KEY_THE_REBELLER_PROP = "ro.rebellion.the_rebeller";
 
     public TheRebellerPreferenceController(Context context, String key) {
         super(context, key);
-        mTheRebeller = SystemProperties.get("ro.rebellion.the_rebeller");
-        mPackageManager = mContext.getPackageManager();
     }
 
     @Override
     public int getAvailabilityStatus() {
-        String buildtype = SystemProperties.get(BUILD_TYPE_PROP,"unrebelized");
-        if (TextUtils.isEmpty(mTheRebeller) || !buildtype.equalsIgnoreCase("rebelized")) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
         return AVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return mTheRebeller;
+        return SystemProperties.get(KEY_THE_REBELLER_PROP,
+                mContext.getString(R.string.unknown));
     }
-
 }
+

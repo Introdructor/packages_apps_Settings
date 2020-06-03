@@ -28,6 +28,14 @@
         android:layout="@layout/rebellion_logo"
         android:selectable="false"/>
 
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -36,21 +44,21 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Device name -->
-    <Preference          
-        android:key="about_device_name"
-        android:title="@string/about_device_name"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
-
-    <!-- ROM version -->
+    <!-- Rebellion version -->
     <Preference
-        android:key="os_rom_version"
-        android:title="@string/rom_version"
+        android:key="rebellion_version"
+        android:title="@string/rebellion_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomVersionDetailPreferenceController" />
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RebellionVersionDetailPreferenceController"/>
+
+    <!-- The Rebeller -->
+    <Preference
+        android:key="the_rebeller"
+        android:title="@string/the_rebeller"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.TheRebellerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -75,22 +83,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
-    <!-- The Rebeller -->
-    <Preference
-        android:key="rebellion_rebeller"
-        android:title="@string/the_rebeller"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.TheRebellerPreferenceController"/>
-
-    <!-- Build date -->
-    <Preference
-        android:key="os_build_date"
-        android:title="@string/build_date"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
-
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
@@ -98,6 +90,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+
+    <!-- Build date -->
+    <Preference
+        android:key="os_build_date"
+        android:title="@string/build_date"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RebellionBuildDatePreferenceController"/>
 
     <!-- Build -->
     <Preference

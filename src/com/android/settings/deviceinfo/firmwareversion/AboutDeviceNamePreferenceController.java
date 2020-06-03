@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2019 ArrowOS
  * Copyright (C) 2020 Rebellion-OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +18,6 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.SystemProperties;
 
 import com.android.settings.R;
@@ -28,6 +28,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
     private static final String TAG = "AboutDeviceNameCtrl";
 
     private static final String KEY_DEVICE_NAME_PROP = "ro.rebellion.device";
+    private static final String KEY_DEVICE_MODEL_PROP = "ro.product.model";
 
     public AboutDeviceNamePreferenceController(Context context, String key) {
         super(context, key);
@@ -40,9 +41,11 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        String deviceCodename = SystemProperties.get(KEY_DEVICE_NAME_PROP,
+        String deviceCodeName = SystemProperties.get(KEY_DEVICE_NAME_PROP,
                 mContext.getString(R.string.unknown));
-        String deviceModel = Build.MODEL;
-        return deviceModel + " | " + deviceCodename;
+        String deviceModel = SystemProperties.get(KEY_DEVICE_MODEL_PROP,
+                mContext.getString(R.string.unknown));
+        return deviceModel + " | " + deviceCodeName;
+
     }
 }

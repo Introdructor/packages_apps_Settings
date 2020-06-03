@@ -13,12 +13,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- ROM version -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
-    <string name="rom_version">Rebellion OS version</string>
-    <string name="rom_version_default">Unknown</string>
  
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
@@ -262,9 +256,6 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
-    <!-- The Rebeller -->
-    <string name="the_rebeller">The Rebeller</string>
-
     <!-- Battery info -->
     <string name="battery_info_title">Battery Info</string>
     <string name="battery_info_summary">Advanced battery information</string>
@@ -366,6 +357,12 @@
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+
+    <!-- Rebellion version preference -->
+    <string name="rebellion_version">Rebellion OS version</string>
+    <string name="build_date">Rebellion Build Date</string>
+    <string name="about_device_name">Rebellion Device</string>
+    <string name="the_rebeller">The Rebeller</string>
 
 </resources>
 

@@ -1,4 +1,3 @@
-
 /*
  * Copyright (C) 2020 Rebellion-OS
  *
@@ -23,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class RomBuildDatePreferenceController extends BasePreferenceController {
+public class RebellionBuildDatePreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "RomBuildDateCtrl";
+    private static final String TAG = "RebellionBuildDateCtrl";
 
     private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
 
-    public RomBuildDatePreferenceController(Context context, String key) {
+    public RebellionBuildDatePreferenceController(Context context, String key) {
         super(context, key);
     }
 
