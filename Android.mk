@@ -60,8 +60,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     rxjava \
     adapter-rxjava \
     gson \
-    reactive-streams \
-    faceunlock_utils
+    reactive-streams
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
     rxandroid
