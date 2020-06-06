@@ -18,13 +18,14 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class TheRebellerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "TherebellerCtrl";
+    private static final String TAG = "TheRebellerCtrl";
 
     private static final String KEY_THE_REBELLER_PROP = "ro.rebellion.the_rebeller";
 
@@ -34,7 +35,7 @@ public class TheRebellerPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return !TextUtils.isEmpty(SystemProperties.get(KEY_THE_REBELLER_PROP)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
