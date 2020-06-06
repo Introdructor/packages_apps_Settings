@@ -100,6 +100,7 @@
   </PreferenceCategory>
 
   <PreferenceCategory
+        android:key="touchscreen_gesture_category"
       android:title="@string/touch_gestures_title_in">
 
     <Preference

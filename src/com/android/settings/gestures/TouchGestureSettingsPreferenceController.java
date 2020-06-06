@@ -24,7 +24,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class TouchGestureSettingsPreferenceController extends BasePreferenceController {
 
-    public static final String KEY = "touchscreen_gesture_settings";
+    public static final String KEY = "touchscreen_gesture_category";
 
     private final LineageHardwareManager mHardware;
 
