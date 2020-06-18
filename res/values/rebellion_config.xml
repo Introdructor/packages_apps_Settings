@@ -38,4 +38,21 @@
     <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
     <bool name="configShowDeviceSensitiveInfo">false</bool>
 
+    <!-- Advanced Battery info -->
+    <string name="config_battHealthPath"></string>
+    <string name="config_battStatsPath"></string>
+    <string name="config_battTechPath"></string>
+    <string name="config_battCapacityPath"></string>
+    <string name="config_battChargeCyclePath"></string>
+    <string name="config_battChargeDesignPath"></string>
+    <string name="config_battChargeFullPath"></string>
+    <string name="config_battChargeTypePath"></string>
+    <string name="config_battCurrentMaxPath"></string>
+    <string name="config_battCurrentPath"></string>
+    <string name="config_battOriginalCapacityPath"></string>
+    <string name="config_battQcomVersionPath"></string>
+    <string name="config_battSysTempLevelPath"></string>
+    <string name="config_battVoltageMaxPath"></string>
+    <string name="config_battVoltagePath"></string>
+
 </resources>

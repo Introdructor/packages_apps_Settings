@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -62,7 +63,7 @@ public class QcomBatteryVersionPreferenceController extends AbstractPreferenceCo
     }
 
     String getQcomBatteryVersion() {
-        String value = readOneLine(QCOM_BATTERY_VERSION_PATH);
+        String value = mContext.getResources().getString(R.string.config_battQcomVersionPath);
         return value;
     }
 

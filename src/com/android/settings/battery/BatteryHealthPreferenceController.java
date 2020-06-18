@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class BatteryHealthPreferenceController extends AbstractPreferenceControl
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_HEALTH = "battery_health";
-    private static final String BATTERY_HEALTH_PATH = "/sys/class/power_supply/battery/health";
 
     public BatteryHealthPreferenceController(Context context) {
         super(context);
@@ -62,7 +62,7 @@ public class BatteryHealthPreferenceController extends AbstractPreferenceControl
     }
 
     String getBatteryHealth() {
-        String value = readOneLine(BATTERY_HEALTH_PATH);
+        String value = mContext.getResources().getString(R.string.config_battHealthPath);
         return value;
     }
 

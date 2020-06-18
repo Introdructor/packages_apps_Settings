@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class SysTempLevelPreferenceController extends AbstractPreferenceControll
         PreferenceControllerMixin {
 
     private static final String KEY_SYS_TEMP_LEVEL = "sys_temp_level";
-    private static final String SYS_TEMP_LEVEL_PATH = "/sys/class/power_supply/battery/system_temp_level";
 
     public SysTempLevelPreferenceController(Context context) {
         super(context);
@@ -62,7 +62,7 @@ public class SysTempLevelPreferenceController extends AbstractPreferenceControll
     }
 
     String getSysTempLevel() {
-        String value = readOneLine(SYS_TEMP_LEVEL_PATH);
+        String value = mContext.getResources().getString(R.string.config_battSysTempLevelPath);
         return value;
     }
 

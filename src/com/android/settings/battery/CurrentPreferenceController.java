@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class CurrentPreferenceController extends AbstractPreferenceController im
         PreferenceControllerMixin {
 
     private static final String KEY_CURRENT = "current";
-    private static final String CURRENT_PATH = "/sys/class/power_supply/battery/current_now";
     private int CURRENT_DIVIDER = 1000;
 
     public CurrentPreferenceController(Context context) {
@@ -63,7 +63,7 @@ public class CurrentPreferenceController extends AbstractPreferenceController im
     }
 
     private String getCurrent() {
-        String value = readOneLine(CURRENT_PATH);
+        String value = mContext.getResources().getString(R.string.config_battCurrentPath);
         return String.format("%s", Integer.parseInt(value) / CURRENT_DIVIDER) + "mA";
     }
 

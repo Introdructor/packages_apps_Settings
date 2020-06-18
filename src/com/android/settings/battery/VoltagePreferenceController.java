@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class VoltagePreferenceController extends AbstractPreferenceController im
         PreferenceControllerMixin {
 
     private static final String KEY_VOLTAGE = "voltage";
-    private static final String VOLTAGE_PATH = "/sys/class/power_supply/battery/voltage_now";
     private int VOLTAGE_DIVIDER = 1000;
 
     public VoltagePreferenceController(Context context) {
@@ -63,7 +63,7 @@ public class VoltagePreferenceController extends AbstractPreferenceController im
     }
 
     private String getVoltage() {
-        String value = readOneLine(VOLTAGE_PATH);
+        String value = mContext.getResources().getString(R.string.config_battVoltagePath);
         return String.format("%s", Integer.parseInt(value) / VOLTAGE_DIVIDER) + "mV";
     }
 

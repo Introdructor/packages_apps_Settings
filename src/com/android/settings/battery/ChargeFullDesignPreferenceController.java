@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -61,7 +62,7 @@ public class ChargeFullDesignPreferenceController extends AbstractPreferenceCont
     }
 
     String getChargeFullDesign() {
-        String value = readOneLine(CHARGE_FULL_DESIGN_PATH);
+        String value = mContext.getResources().getString(R.string.config_battChargeDesignPath);
         return Integer.parseInt(value) / 1000 + "mAh";
     }
 

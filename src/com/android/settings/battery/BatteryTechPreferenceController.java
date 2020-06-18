@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class BatteryTechPreferenceController extends AbstractPreferenceControlle
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_TECH = "battery_tech";
-    private static final String BATTERY_TECH_PATH = "/sys/class/power_supply/battery/technology";
 
     public BatteryTechPreferenceController(Context context) {
         super(context);
@@ -62,7 +62,7 @@ public class BatteryTechPreferenceController extends AbstractPreferenceControlle
     }
 
     String getBatteryTech() {
-        String value = readOneLine(BATTERY_TECH_PATH);
+        String value = mContext.getResources().getString(R.string.config_battTechPath);
         return value;
     }
 

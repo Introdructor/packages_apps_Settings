@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class VoltageMaxPreferenceController extends AbstractPreferenceController
         PreferenceControllerMixin {
 
     private static final String KEY_VOLTAGE_MAX = "voltage_max";
-    private static final String VOLTAGE_MAX_PATH = "/sys/class/power_supply/battery/voltage_max";
     private int VOLTAGE_MAX_DIVIDER = 1000;
 
     public VoltageMaxPreferenceController(Context context) {
@@ -63,7 +63,7 @@ public class VoltageMaxPreferenceController extends AbstractPreferenceController
     }
 
     private String getVoltageMax() {
-        String value = readOneLine(VOLTAGE_MAX_PATH);
+        String value = mContext.getResources().getString(R.string.config_battVoltageMaxPath);
         return String.format("%s", Integer.parseInt(value) / VOLTAGE_MAX_DIVIDER) + "mV";
     }
 

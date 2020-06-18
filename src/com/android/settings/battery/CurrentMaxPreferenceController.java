@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class CurrentMaxPreferenceController extends AbstractPreferenceController
         PreferenceControllerMixin {
 
     private static final String KEY_CURRENT_MAX = "current_max";
-    private static final String CURRENT_MAX_PATH = "/sys/class/power_supply/battery/constant_charge_current_max";
     private int CURRENT_MAX_DIVIDER = 1000;
 
     public CurrentMaxPreferenceController(Context context) {
@@ -63,7 +63,7 @@ public class CurrentMaxPreferenceController extends AbstractPreferenceController
     }
 
     private String getCurrentMax() {
-        String value = readOneLine(CURRENT_MAX_PATH);
+        String value = mContext.getResources().getString(R.string.config_battCurrentMaxPath);
         return String.format("%s", Integer.parseInt(value) / CURRENT_MAX_DIVIDER) + "mA";
     }
 

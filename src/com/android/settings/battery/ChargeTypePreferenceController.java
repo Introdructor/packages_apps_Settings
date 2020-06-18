@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class ChargeTypePreferenceController extends AbstractPreferenceController
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_CHARGE_TYPE = "battery_charge_type";
-    private static final String BATTERY_CHARGE_TYPE_PATH = "/sys/class/power_supply/battery/charge_type";
 
     public ChargeTypePreferenceController(Context context) {
         super(context);
@@ -62,7 +62,7 @@ public class ChargeTypePreferenceController extends AbstractPreferenceController
     }
 
     String getChargeType() {
-        String value = readOneLine(BATTERY_CHARGE_TYPE_PATH);
+        String value = mContext.getResources().getString(R.string.config_battChargeTypePath);
         return value;
     }
 

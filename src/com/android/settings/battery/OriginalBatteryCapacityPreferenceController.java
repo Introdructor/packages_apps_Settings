@@ -18,6 +18,7 @@ package com.android.settings.battery;
 import android.content.Context;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
@@ -28,7 +29,6 @@ public class OriginalBatteryCapacityPreferenceController extends AbstractPrefere
         PreferenceControllerMixin {
 
     private static final String KEY_CHARGE_FULL = "charge_full";
-    private static final String CHARGE_FULL_PATH = "/sys/class/power_supply/bms/charge_full";
     private int CHARGE_FULL_DIVIDER = 1000;
 
     public OriginalBatteryCapacityPreferenceController(Context context) {
@@ -63,7 +63,7 @@ public class OriginalBatteryCapacityPreferenceController extends AbstractPrefere
     }
 
     String getOriginalBatteryCapacity() {
-        String value = readOneLine(CHARGE_FULL_PATH);
+        String value = mContext.getResources().getString(R.string.config_battOriginalCapacityPath);
         return String.format("%s", Integer.parseInt(value) / CHARGE_FULL_DIVIDER) + "mAh";
     }
 
