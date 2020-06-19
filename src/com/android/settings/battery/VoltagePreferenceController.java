@@ -64,7 +64,12 @@ public class VoltagePreferenceController extends AbstractPreferenceController im
 
     private String getVoltage() {
         String value = mContext.getResources().getString(R.string.config_battVoltagePath);
-        return String.format("%s", Integer.parseInt(value) / VOLTAGE_DIVIDER) + "mV";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / VOLTAGE_DIVIDER) + "mV";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

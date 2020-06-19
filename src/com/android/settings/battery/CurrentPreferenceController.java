@@ -64,7 +64,12 @@ public class CurrentPreferenceController extends AbstractPreferenceController im
 
     private String getCurrent() {
         String value = mContext.getResources().getString(R.string.config_battCurrentPath);
-        return String.format("%s", Integer.parseInt(value) / CURRENT_DIVIDER) + "mA";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / CURRENT_DIVIDER) + "mA";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

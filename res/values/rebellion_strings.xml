@@ -259,6 +259,7 @@
     <!-- Battery info -->
     <string name="battery_info_title">Battery Info</string>
     <string name="battery_info_summary">Advanced battery information</string>
+    <string name="abi_unavailable">Unavailable</string>
     <string name="charge_full_design">Available Capacity</string>
     <string name="charge_cycle">Charge cycles</string>
     <string name="battery_tech">Technology</string>

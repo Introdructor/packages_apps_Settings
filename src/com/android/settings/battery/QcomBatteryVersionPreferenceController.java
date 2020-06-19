@@ -64,7 +64,12 @@ public class QcomBatteryVersionPreferenceController extends AbstractPreferenceCo
 
     String getQcomBatteryVersion() {
         String value = mContext.getResources().getString(R.string.config_battQcomVersionPath);
-        return value;
+        value = null;
+        try {
+            return value;
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

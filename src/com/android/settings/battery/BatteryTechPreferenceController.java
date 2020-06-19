@@ -63,7 +63,12 @@ public class BatteryTechPreferenceController extends AbstractPreferenceControlle
 
     String getBatteryTech() {
         String value = mContext.getResources().getString(R.string.config_battTechPath);
-        return value;
+        value = null;
+        try {
+            return value;
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override
