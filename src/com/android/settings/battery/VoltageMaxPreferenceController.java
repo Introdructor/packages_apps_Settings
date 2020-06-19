@@ -64,7 +64,12 @@ public class VoltageMaxPreferenceController extends AbstractPreferenceController
 
     private String getVoltageMax() {
         String value = mContext.getResources().getString(R.string.config_battVoltageMaxPath);
-        return String.format("%s", Integer.parseInt(value) / VOLTAGE_MAX_DIVIDER) + "mV";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / VOLTAGE_MAX_DIVIDER) + "mV";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override

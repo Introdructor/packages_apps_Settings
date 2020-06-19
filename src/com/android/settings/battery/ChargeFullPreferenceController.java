@@ -64,7 +64,12 @@ public class ChargeFullPreferenceController extends AbstractPreferenceController
 
     private String getChargeFull() {
         String value = mContext.getResources().getString(R.string.config_battChargeFullPath);
-        return String.format("%s", Integer.parseInt(value) / CHARGE_FULL_DIVIDER) + "mAh";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / CHARGE_FULL_DIVIDER) + "mAh";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override
