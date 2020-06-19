@@ -64,7 +64,12 @@ public class ChargeCyclePreferenceController extends AbstractPreferenceControlle
 
     String getCycleCount() {
         String value = mContext.getResources().getString(R.string.config_battChargeCyclePath);
-        return value;
+        value = null;
+        try {
+            return value;
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override

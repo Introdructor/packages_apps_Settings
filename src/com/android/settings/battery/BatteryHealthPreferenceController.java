@@ -63,7 +63,12 @@ public class BatteryHealthPreferenceController extends AbstractPreferenceControl
 
     String getBatteryHealth() {
         String value = mContext.getResources().getString(R.string.config_battHealthPath);
-        return value;
+        value = null;
+        try {
+            return value;
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override

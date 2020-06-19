@@ -63,7 +63,12 @@ public class ChargeTypePreferenceController extends AbstractPreferenceController
 
     String getChargeType() {
         String value = mContext.getResources().getString(R.string.config_battChargeTypePath);
-        return value;
+        value = null;
+        try {
+            return value;
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override

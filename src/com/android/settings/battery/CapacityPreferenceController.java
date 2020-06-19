@@ -64,7 +64,12 @@ public class CapacityPreferenceController extends AbstractPreferenceController i
 
     String getCapacity() {
         String value = mContext.getResources().getString(R.string.config_battCapacityPath);
-        return value + "%";
+        value = null;
+        try {
+            return value + "%";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

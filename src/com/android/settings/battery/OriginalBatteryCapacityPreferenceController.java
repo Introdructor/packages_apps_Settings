@@ -64,7 +64,12 @@ public class OriginalBatteryCapacityPreferenceController extends AbstractPrefere
 
     String getOriginalBatteryCapacity() {
         String value = mContext.getResources().getString(R.string.config_battOriginalCapacityPath);
-        return String.format("%s", Integer.parseInt(value) / CHARGE_FULL_DIVIDER) + "mAh";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / CHARGE_FULL_DIVIDER) + "mAh";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

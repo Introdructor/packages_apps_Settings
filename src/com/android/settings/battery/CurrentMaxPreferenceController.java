@@ -64,7 +64,12 @@ public class CurrentMaxPreferenceController extends AbstractPreferenceController
 
     private String getCurrentMax() {
         String value = mContext.getResources().getString(R.string.config_battCurrentMaxPath);
-        return String.format("%s", Integer.parseInt(value) / CURRENT_MAX_DIVIDER) + "mA";
+        value = null;
+        try {
+            return String.format("%s", Integer.parseInt(value) / CURRENT_MAX_DIVIDER) + "mA";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+        }
     }
 
     @Override

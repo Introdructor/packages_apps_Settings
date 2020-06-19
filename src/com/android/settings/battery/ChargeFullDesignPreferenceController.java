@@ -63,7 +63,12 @@ public class ChargeFullDesignPreferenceController extends AbstractPreferenceCont
 
     String getChargeFullDesign() {
         String value = mContext.getResources().getString(R.string.config_battChargeDesignPath);
-        return Integer.parseInt(value) / 1000 + "mAh";
+        value = null;
+        try {
+            return Integer.parseInt(value) / 1000 + "mAh";
+        } catch (Exception e) {
+            return mContext.getResources().getString(R.string.abi_unavailable);
+       }
     }
 
     @Override

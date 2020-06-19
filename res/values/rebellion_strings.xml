@@ -259,6 +259,7 @@
     <!-- Battery info -->
     <string name="battery_info_title">Battery Info</string>
     <string name="battery_info_summary">Advanced battery information</string>
+    <string name="abi_unavailable">Unavailable</string>
     <string name="charge_full_design">Available Capacity</string>
     <string name="charge_cycle">Charge cycles</string>
     <string name="battery_tech">Technology</string>
@@ -373,6 +374,11 @@
 
     <!-- Back gesture vibration -->
     <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
+
+<!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to 
+use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
 </resources>
 
